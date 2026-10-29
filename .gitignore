@@ -1,0 +1,23 @@
+node_modules/
+dist/
+coverage/
+*.local
+*.log
+
+# Environment files: only the .example templates are committed.
+.env
+.env.*
+!.env.example
+
+# Local Wrangler overrides (worker/.dev.vars). Never commit real values.
+.dev.vars
+!worker/.dev.vars.example
+
+# Cloudflare / Wrangler local state and generated binding types.
+.wrangler/
+worker/.wrangler/
+worker/worker-configuration.d.ts
+
+.DS_Store
+.vscode/
+.idea/

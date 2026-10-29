@@ -1,0 +1,81 @@
+{
+  "format": "dailies-backup",
+  "schemaVersion": 1,
+  "exportedAt": "2026-10-01T12:00:00.000Z",
+  "appVersion": "0.1.0",
+  "data": {
+    "preferences": {
+      "schemaVersion": 1,
+      "theme": "dark",
+      "locale": "de-DE",
+      "displayTimeZone": "Europe/Berlin",
+      "dashboardSort": "name",
+      "collapsedSections": []
+    },
+    "selectedGames": [
+      {
+        "id": "afk-arena::afk-arena:global",
+        "gameId": "afk-arena",
+        "serverId": "afk-arena:global",
+        "enabled": true,
+        "customDisplayName": "AFK",
+        "createdAt": "2026-09-01T10:00:00.000Z",
+        "updatedAt": "2026-09-02T10:00:00.000Z"
+      },
+      {
+        "id": "custom_11111111-1111-4111-8111-111111111111::custom_11111111-1111-4111-8111-111111111111:s_22222222-2222-4222-8222-222222222222",
+        "gameId": "custom_11111111-1111-4111-8111-111111111111",
+        "serverId": "custom_11111111-1111-4111-8111-111111111111:s_22222222-2222-4222-8222-222222222222",
+        "enabled": false,
+        "createdAt": "2026-09-03T10:00:00.000Z",
+        "updatedAt": "2026-09-03T10:00:00.000Z"
+      }
+    ],
+    "customGames": [
+      {
+        "id": "custom_11111111-1111-4111-8111-111111111111",
+        "name": "Fixture Game",
+        "menuName": "Fixture",
+        "servers": [
+          {
+            "id": "custom_11111111-1111-4111-8111-111111111111:s_22222222-2222-4222-8222-222222222222",
+            "name": "Global",
+            "timeZone": "America/New_York",
+            "dailyReset": {
+              "time": "04:00",
+              "basis": "local"
+            }
+          }
+        ],
+        "createdAt": "2026-09-03T09:00:00.000Z",
+        "updatedAt": "2026-09-03T09:00:00.000Z"
+      }
+    ],
+    "gameSchedules": [
+      {
+        "id": "afk-arena::afk-arena:global",
+        "gameId": "afk-arena",
+        "serverId": "afk-arena:global",
+        "schedule": {
+          "kind": "weekly",
+          "timeZone": {
+            "kind": "iana",
+            "timeZone": "Europe/Berlin"
+          },
+          "time": "05:30",
+          "weekday": 3
+        },
+        "updatedAt": "2026-09-04T10:00:00.000Z"
+      }
+    ],
+    "loginCompletionHistory": [
+      {
+        "id": "33333333-3333-4333-8333-333333333333",
+        "gameId": "afk-arena",
+        "serverId": "afk-arena:global",
+        "completedAt": "2026-09-05T08:00:00.000Z",
+        "notes": "fixture login"
+      }
+    ]
+  }
+}

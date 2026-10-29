@@ -1,0 +1,20 @@
+# Worker runtime bindings and secrets (worker/ only).
+#
+# wrangler.jsonc holds non-secret vars such as ALLOWED_ORIGINS.
+# Secrets are set per environment with `wrangler secret put NAME` and are
+# never committed. No secrets are required for authentication verification.
+
+# Comma-separated list of frontend origins permitted to call the Worker.
+# Example for local development against the demo worker URL:
+#   ALLOWED_ORIGINS=http://localhost:5173
+ALLOWED_ORIGINS=
+
+# Public Firebase project ID. The Worker verifies ID-token issuer and audience
+# against this value; leave empty to keep the account endpoint disabled.
+#   FIREBASE_PROJECT_ID=your-project-id
+FIREBASE_PROJECT_ID=
+
+# Optional SteamGridDB API key for the artwork proxy. Never prefix it with
+# VITE_ and never commit the real value. Configure production with:
+#   wrangler secret put STEAMGRIDDB_API_KEY
+STEAMGRIDDB_API_KEY=

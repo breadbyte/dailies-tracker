@@ -1,0 +1,42 @@
+{
+  "format": "dailies-backup",
+  "schemaVersion": 1,
+  "exportedAt": "2026-10-01T12:00:00.000Z",
+  "appVersion": "0.1.0",
+  "data": {
+    "preferences": {
+      "schemaVersion": 1,
+      "theme": "system",
+      "dashboardSort": "catalog",
+      "collapsedSections": []
+    },
+    "selectedGames": [
+      {
+        "id": "afk-arena::afk-arena:global",
+        "gameId": "afk-arena",
+        "serverId": "afk-arena:global",
+        "enabled": true,
+        "createdAt": "2026-09-01T10:00:00.000Z",
+        "updatedAt": "2026-09-02T10:00:00.000Z"
+      }
+    ],
+    "customGames": [],
+    "gameSchedules": [
+      {
+        "id": "afk-arena::afk-arena:global",
+        "gameId": "afk-arena",
+        "serverId": "afk-arena:global",
+        "schedule": {
+          "kind": "daily",
+          "timeZone": {
+            "kind": "iana",
+            "timeZone": "Mars/Olympus"
+          },
+          "time": "04:00"
+        },
+        "updatedAt": "2026-09-04T10:00:00.000Z"
+      }
+    ],
+    "loginCompletionHistory": []
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "dailies-worker",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "predeploy": "npm run typecheck && npm run test",
+    "deploy": "wrangler deploy",
+    "pages:dev": "wrangler pages dev ../dist",
+    "pages:deploy": "wrangler pages deploy -c wrangler.pages.jsonc --branch=main",
+    "typecheck": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "types": "wrangler types --env-interface Env"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20261029.1",
+    "@types/node": "^26.6.6",
+    "typescript": "~6.0.3",
+    "vitest": "^5.0.5",
+    "wrangler": "^4.155.0"
+  },
+  "dependencies": {
+    "jose": "^6.2.14"
+  }
+}

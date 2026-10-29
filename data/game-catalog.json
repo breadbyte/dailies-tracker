@@ -1,0 +1,5401 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "repository": "https://github.com/cicerakes/Game-Time-Master",
+    "commit": "8576bda6481210f3ba24342fa242cb06fb9e6b5d",
+    "path": "game-data.js",
+    "license": "GPL-3.0-only"
+  },
+  "games": [
+    {
+      "id": "18trip",
+      "name": "18TRIP",
+      "servers": [
+        {
+          "id": "18trip:jp",
+          "name": "JP",
+          "timeZone": "Asia/Tokyo",
+          "icon": "18trip",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "name": "A3!",
+      "servers": [
+        {
+          "id": "a3:jp",
+          "name": "JP",
+          "timeZone": "Asia/Tokyo",
+          "icon": "a3",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "action-taimanin",
+      "name": "Action Taimanin",
+      "servers": [
+        {
+          "id": "action-taimanin:global",
+          "name": "Global",
+          "timeZone": "Etc/UTC",
+          "icon": "action-taimanin",
+          "dailyReset": {
+            "time": "02:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "aether-gazer",
+      "name": "Aether Gazer",
+      "servers": [
+        {
+          "id": "aether-gazer:global",
+          "name": "Global",
+          "timeZone": "Etc/GMT+7",
+          "icon": "aether-gazer",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "afk-arena",
+      "name": "AFK Arena",
+      "servers": [
+        {
+          "id": "afk-arena:global",
+          "name": "Global",
+          "timeZone": "Etc/UTC",
+          "icon": "afk-arena",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "afk-journey",
+      "name": "AFK Journey",
+      "servers": [
+        {
+          "id": "afk-journey:global",
+          "name": "Global",
+          "timeZone": "Etc/UTC",
+          "icon": "afk-journey",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "age-of-ishtaria",
+      "name": "Age of Ishtaria",
+      "servers": [
+        {
+          "id": "age-of-ishtaria:global",
+          "name": "Global",
+          "timeZone": "Etc/GMT+8",
+          "icon": "age-of-ishtaria",
+          "dailyReset": {
+            "time": "16:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "aion-2",
+      "name": "AION 2",
+      "servers": [
+        {
+          "id": "aion-2:global",
+          "name": "Global",
+          "timeZone": "Etc/UTC",
+          "icon": "aion-2",
+          "dailyReset": {
+            "time": "07:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "airship-knights-zero",
+      "name": "Airship Knights: Zero",
+      "servers": [
+        {
+          "id": "airship-knights-zero:global",
+          "name": "Global",
+          "timeZone": "Etc/GMT-9",
+          "icon": "airship-knights-zero",
+          "dailyReset": {
+            "time": "12:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "alchemia-story",
+      "name": "Alchemia Story",
+      "servers": [
+        {
+          "id": "alchemia-story:global",
+          "name": "Global",
+          "timeZone": "Asia/Tokyo",
+          "icon": "alchemia-story",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "animal-crossing-pocket-camp-c",
+      "name": "Animal Crossing: Pocket Camp C",
+      "servers": [
+        {
+          "id": "animal-crossing-pocket-camp-c:global",
+          "name": "Global",
+          "timeZone": "Etc/UTC",
+          "icon": "animal-crossing-pocket-camp-c",
+          "dailyReset": {
+            "time": "06:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "another-eden",
+      "name": "Another Eden",
+      "servers": [
+        {
+          "id": "another-eden:global",
+          "name": "Global",
+          "timeZone": "Etc/UTC",
+          "icon": "another-eden",
+          "dailyReset": {
+            "time": "15:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "aotu-world",
+      "name": "Aotu World",
+      "servers": [
+        {
+          "id": "aotu-world:cn",
+          "name": "CN",
+          "timeZone": "Asia/Shanghai",
+          "icon": "aotu-world",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "arcana-tactics",
+      "name": "Arcana Tactics",
+      "servers": [
+        {
+          "id": "arcana-tactics:global",
+          "name": "Global",
+          "timeZone": "Asia/Singapore",
+          "icon": "arcana-tactics",
+          "dailyReset": {
+            "time": "23:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "arknights",
+      "name": "Arknights",
+      "servers": [
+        {
+          "id": "arknights:cn",
+          "name": "CN",
+          "timeZone": "Asia/Shanghai",
+          "icon": "arknights",
+          "dailyReset": {
+            "time": "04:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "arknights:en",
+          "name": "EN",
+          "timeZone": "Etc/GMT+7",
+          "icon": "arknights",
+          "dailyReset": {
+            "time": "04:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "arknights:jp",
+          "name": "JP",
+          "timeZone": "Asia/Tokyo",
+          "icon": "arknights",
+          "dailyReset": {
+            "time": "04:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "arknights-endfield",
+      "name": "Arknights: Endfield",
+      "servers": [
+        {
+          "id": "arknights-endfield:americas-europe",
+          "name": "Americas / Europe",
+          "timeZone": "Etc/GMT+5",
+          "icon": "arknights-endfield",
+          "dailyReset": {
+            "time": "04:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "arknights-endfield:asia",
+          "name": "Asia",
+          "timeZone": "Etc/GMT-8",
+          "icon": "arknights-endfield",
+          "dailyReset": {
+            "time": "04:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ash-arms",
+      "name": "Ash Arms",
+      "servers": [
+        {
+          "id": "ash-arms:jp",
+          "name": "JP",
+          "timeZone": "Asia/Tokyo",
+          "icon": "ash-arms",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "assault-lily-last-bullet",
+      "name": "Assault Lily: Last Bullet",
+      "servers": [
+        {
+          "id": "assault-lily-last-bullet:jp",
+          "name": "JP",
+          "timeZone": "Asia/Tokyo",
+          "icon": "assault-lily-last-bullet",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "astra-knights-of-veda",
+      "name": "ASTRA: Knights of Veda",
+      "servers": [
+        {
+          "id": "astra-knights-of-veda:global",
+          "name": "Global",
+          "timeZone": "Etc/UTC",
+          "icon": "astra-knights-of-veda",
+          "dailyReset": {
+            "time": "06:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "atelier-resleriana",
+      "name": "Atelier Resleriana",
+      "servers": [
+        {
+          "id": "atelier-resleriana:jp",
+          "name": "JP",
+          "timeZone": "Etc/GMT-8",
+          "icon": "atelier-resleriana",
+          "dailyReset": {
+            "time": "11:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "attack-on-time-kaisen-of-girls",
+      "name": "Attack on Time:Kaisen of girls",
+      "servers": [
+        {
+          "id": "attack-on-time-kaisen-of-girls:en",
+          "name": "EN",
+          "timeZone": "America/New_York",
+          "icon": "attack-on-time-kog",
+          "dailyReset": {
+            "time": "02:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "azur-lane",
+      "name": "Azur Lane",
+      "servers": [
+        {
+          "id": "azur-lane:cn",
+          "name": "CN",
+          "timeZone": "Etc/GMT-8",
+          "icon": "azur-lane-cn-jp",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "azur-lane:en",
+          "name": "EN",
+          "timeZone": "Etc/GMT+7",
+          "icon": "azur-lane-en",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "azur-lane:jp",
+          "name": "JP",
+          "timeZone": "Asia/Tokyo",
+          "icon": "azur-lane-cn-jp",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bang-dream-girls-band-party",
+      "name": "BanG Dream! Girls Band Party!",
+      "servers": [
+        {
+          "id": "bang-dream-girls-band-party:en",
+          "name": "EN",
+          "timeZone": "Etc/UTC",
+          "icon": "bang-dream-gbp-en",
+          "dailyReset": {
+            "time": "08:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "bang-dream-girls-band-party:jp",
+          "name": "JP",
+          "timeZone": "Asia/Tokyo",
+          "icon": "bang-dream-gbp-jp",
+          "dailyReset": {
+            "time": "04:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-star-theater-starless",
+      "name": "Black Star Theater Starless",
+      "servers": [
+        {
+          "id": "black-star-theater-starless:jp",
+          "name": "JP",
+          "timeZone": "Asia/Tokyo",
+          "icon": "black-star-theater-starless",
+          "dailyReset": {
+            "time": "15:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "black-star-theater-starless:tw",
+          "name": "TW",
+          "timeZone": "Asia/Tokyo",
+          "icon": "black-star-theater-starless",
+          "dailyReset": {
+            "time": "15:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bleach-brave-souls",
+      "name": "Bleach: Brave Souls",
+      "servers": [
+        {
+          "id": "bleach-brave-souls:global",
+          "name": "Global",
+          "timeZone": "Asia/Tokyo",
+          "icon": "bleach-brave-souls",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "blue-archive",
+      "name": "Blue Archive",
+      "servers": [
+        {
+          "id": "blue-archive:global",
+          "name": "Global",
+          "timeZone": "Etc/UTC",
+          "icon": "blue-archive",
+          "dailyReset": {
+            "time": "19:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "blue-archive:jp",
+          "name": "JP",
+          "timeZone": "Asia/Tokyo",
+          "icon": "blue-archive-jp",
+          "dailyReset": {
+            "time": "04:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "brawlhalla",
+      "name": "Brawlhalla",
+      "servers": [
+        {
+          "id": "brawlhalla:global",
+          "name": "Global",
+          "timeZone": "America/New_York",
+          "icon": "brawlhalla",
+          "dailyReset": {
+            "time": "10:00",
+            "basis": "utc"
+          }
+        }
+      ]
+    },
+    {
+      "id": "browndust2",
+      "name": "BrownDust2",
+      "servers": [
+        {
+          "id": "browndust2:global",
+          "name": "Global",
+          "timeZone": "Etc/UTC",
+          "icon": "browndust2",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "browndust2:korea",
+          "name": "Korea",
+          "timeZone": "Asia/Seoul",
+          "icon": "browndust2",
+          "dailyReset": {
+            "time": "09:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "call-of-duty-mobile",
+      "name": "Call of Duty: Mobile",
+      "servers": [
+        {
+          "id": "call-of-duty-mobile:sea",
+          "name": "SEA",
+          "timeZone": "Etc/GMT-8",
+          "icon": "call-of-duty-mobile",
+          "dailyReset": {
+            "time": "08:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "captain-tsubasa-dream-team",
+      "name": "Captain Tsubasa: Dream Team",
+      "servers": [
+        {
+          "id": "captain-tsubasa-dream-team:global",
+          "name": "Global",
+          "timeZone": "Asia/Tokyo",
+          "icon": "captain-tsubasa-dream-team",
+          "dailyReset": {
+            "time": "09:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cat-fantasy",
+      "name": "Cat Fantasy",
+      "servers": [
+        {
+          "id": "cat-fantasy:en",
+          "name": "EN",
+          "timeZone": "Etc/GMT+5",
+          "icon": "cat-fantasy",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "chaos-zero-nightmare",
+      "name": "Chaos Zero Nightmare",
+      "servers": [
+        {
+          "id": "chaos-zero-nightmare:global",
+          "name": "Global",
+          "timeZone": "Etc/UTC",
+          "icon": "chaos-zero-nightmare",
+          "dailyReset": {
+            "time": "18:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cookierun-crumble",
+      "name": "CookieRun: Crumble",
+      "servers": [
+        {
+          "id": "cookierun-crumble:global",
+          "name": "Global",
+          "timeZone": "Etc/GMT-9",
+          "icon": "cookierun-crumble",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cookierun-kingdom",
+      "name": "CookieRun: Kingdom",
+      "servers": [
+        {
+          "id": "cookierun-kingdom:global",
+          "name": "Global",
+          "timeZone": "Asia/Seoul",
+          "icon": "cookierun-kingdom",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cookierun-tower-of-adventures",
+      "name": "CookieRun: Tower of Adventures",
+      "servers": [
+        {
+          "id": "cookierun-tower-of-adventures:global",
+          "name": "Global",
+          "timeZone": "Asia/Seoul",
+          "icon": "cookierun-tower-of-adventures",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "counter-strike-nexon",
+      "name": "Counter-Strike Nexon",
+      "servers": [
+        {
+          "id": "counter-strike-nexon:global",
+          "name": "Global",
+          "timeZone": "Europe/Berlin",
+          "icon": "counter-strike-nexon",
+          "dailyReset": {
+            "time": "22:00",
+            "basis": "utc"
+          }
+        }
+      ]
+    },
+    {
+      "id": "crash-fever",
+      "name": "Crash Fever",
+      "servers": [
+        {
+          "id": "crash-fever:jp",
+          "name": "JP",
+          "timeZone": "Asia/Tokyo",
+          "icon": "crash-fever",
+          "dailyReset": {
+            "time": "02:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "crazy-ones",
+      "name": "Crazy Ones",
+      "servers": [
+        {
+          "id": "crazy-ones:global",
+          "name": "Global",
+          "timeZone": "Etc/GMT-7",
+          "icon": "crazy-ones",
+          "dailyReset": {
+            "time": "17:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "crusaders-quest",
+      "name": "Crusaders Quest",
+      "servers": [
+        {
+          "id": "crusaders-quest:global",
+          "name": "Global",
+          "timeZone": "America/Los_Angeles",
+          "icon": "crusaders-quest",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "crypto-ball-z",
+      "name": "Crypto Ball Z",
+      "servers": [
+        {
+          "id": "crypto-ball-z:global",
+          "name": "Global",
+          "timeZone": "Etc/UTC",
+          "icon": "crypto-ball-z",
+          "dailyReset": {
+            "time": "03:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "d4dj-groovy-mix",
+      "name": "D4DJ Groovy Mix",
+      "servers": [
+        {
+          "id": "d4dj-groovy-mix:en",
+          "name": "EN",
+          "timeZone": "Etc/UTC",
+          "icon": "d4-dj-groovy-mix",
+          "dailyReset": {
+            "time": "08:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "d4dj-groovy-mix:jp",
+          "name": "JP",
+          "timeZone": "Asia/Tokyo",
+          "icon": "d4-dj-groovy-mix-jp",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "date-a-live-spirit-echo",
+      "name": "Date A Live: Spirit Echo",
+      "servers": [
+        {
+          "id": "date-a-live-spirit-echo:global",
+          "name": "Global",
+          "timeZone": "Etc/GMT+7",
+          "icon": "date-a-live-spirit-echo",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dc-dark-legion",
+      "name": "DC: Dark Legion",
+      "servers": [
+        {
+          "id": "dc-dark-legion:global",
+          "name": "Global",
+          "timeZone": "Etc/UTC",
+          "icon": "dc-dark-legion",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dead-or-alive-xtreme-venus-vacation",
+      "name": "DEAD OR ALIVE Xtreme Venus Vacation",
+      "servers": [
+        {
+          "id": "dead-or-alive-xtreme-venus-vacation:global",
+          "name": "Global",
+          "timeZone": "Etc/UTC",
+          "icon": "dead-or-alive-xvv",
+          "dailyReset": {
+            "time": "19:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "demon-god",
+      "name": "Demon God",
+      "servers": [
+        {
+          "id": "demon-god:global",
+          "name": "Global",
+          "timeZone": "Etc/GMT-8",
+          "icon": "demon-god",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "destiny-2",
+      "name": "Destiny 2",
+      "servers": [
+        {
+          "id": "destiny-2:global",
+          "name": "Global",
+          "timeZone": "America/Los_Angeles",
+          "icon": "destiny-2",
+          "dailyReset": {
+            "time": "17:00",
+            "basis": "utc"
+          }
+        }
+      ]
+    },
+    {
+      "id": "devil-may-cry-peak-of-combat",
+      "name": "Devil May Cry: Peak of Combat",
+      "servers": [
+        {
+          "id": "devil-may-cry-peak-of-combat:global",
+          "name": "Global",
+          "timeZone": "Etc/GMT-8",
+          "icon": "devil-may-cry-peak-of-combat",
+          "dailyReset": {
+            "time": "11:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "diablo-immortal",
+      "name": "Diablo Immortal",
+      "servers": [
+        {
+          "id": "diablo-immortal:east-asia",
+          "name": "East Asia",
+          "timeZone": "Etc/GMT-9",
+          "icon": "diablo-immortal",
+          "dailyReset": {
+            "time": "03:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "diablo-immortal:europe",
+          "name": "Europe",
+          "timeZone": "Etc/GMT-1",
+          "icon": "diablo-immortal",
+          "dailyReset": {
+            "time": "03:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "diablo-immortal:north-america-utc-4",
+          "name": "North America (UTC-4)",
+          "timeZone": "Etc/GMT+4",
+          "icon": "diablo-immortal",
+          "dailyReset": {
+            "time": "03:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "diablo-immortal:north-america-utc-7",
+          "name": "North America (UTC-7)",
+          "timeZone": "Etc/GMT+7",
+          "icon": "diablo-immortal",
+          "dailyReset": {
+            "time": "03:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "diablo-immortal:oceania",
+          "name": "Oceania",
+          "timeZone": "Etc/GMT-10",
+          "icon": "diablo-immortal",
+          "dailyReset": {
+            "time": "03:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "diablo-immortal:south-america",
+          "name": "South America",
+          "timeZone": "Etc/GMT+3",
+          "icon": "diablo-immortal",
+          "dailyReset": {
+            "time": "03:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "disgaea-rpg",
+      "name": "Disgaea RPG",
+      "servers": [
+        {
+          "id": "disgaea-rpg:jp",
+          "name": "JP",
+          "timeZone": "Asia/Tokyo",
+          "icon": "disgaea-rpg",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dislyte",
+      "name": "Dislyte",
+      "servers": [
+        {
+          "id": "dislyte:global",
+          "name": "Global",
+          "timeZone": "Etc/UTC",
+          "icon": "dislyte",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "disney-twisted-wonderland",
+      "name": "Disney Twisted-Wonderland",
+      "servers": [
+        {
+          "id": "disney-twisted-wonderland:en",
+          "name": "EN",
+          "timeZone": "America/Los_Angeles",
+          "icon": "disney-twisted-wonderland",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "disney-twisted-wonderland:jp",
+          "name": "JP",
+          "timeZone": "Asia/Tokyo",
+          "icon": "disney-twisted-wonderland",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dot-abyss",
+      "name": "Dot Abyss",
+      "servers": [
+        {
+          "id": "dot-abyss:jp",
+          "name": "JP",
+          "timeZone": "Asia/Tokyo",
+          "icon": "dot-abyss",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dragon-ball-legends",
+      "name": "DRAGON BALL LEGENDS",
+      "servers": [
+        {
+          "id": "dragon-ball-legends:global",
+          "name": "Global",
+          "timeZone": "Etc/UTC",
+          "icon": "dragon-ball-legends",
+          "dailyReset": {
+            "time": "06:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dragon-ball-z-dokkan-battle",
+      "name": "DRAGON BALL Z DOKKAN BATTLE",
+      "servers": [
+        {
+          "id": "dragon-ball-z-dokkan-battle:global",
+          "name": "Global",
+          "timeZone": "America/Los_Angeles",
+          "icon": "dragon-ball-z-dokkan-battle",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "utc"
+          }
+        },
+        {
+          "id": "dragon-ball-z-dokkan-battle:jp",
+          "name": "JP",
+          "timeZone": "Asia/Tokyo",
+          "icon": "dragon-ball-z-dokkan-battle",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dragon-quest-tact",
+      "name": "DRAGON QUEST TACT",
+      "servers": [
+        {
+          "id": "dragon-quest-tact:jp",
+          "name": "JP",
+          "timeZone": "Asia/Tokyo",
+          "icon": "dragon-quest-tact",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dragon-raja",
+      "name": "Dragon Raja",
+      "servers": [
+        {
+          "id": "dragon-raja:am",
+          "name": "AM",
+          "timeZone": "Etc/GMT+5",
+          "icon": "dragon-raja",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "dragon-raja:eu",
+          "name": "EU",
+          "timeZone": "Etc/GMT-1",
+          "icon": "dragon-raja",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dragon-traveler",
+      "name": "Dragon Traveler",
+      "servers": [
+        {
+          "id": "dragon-traveler:global",
+          "name": "Global",
+          "timeZone": "Etc/GMT+5",
+          "icon": "dragon-traveler",
+          "dailyReset": {
+            "time": "17:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dream-girlfriend",
+      "name": "Dream Girlfriend",
+      "servers": [
+        {
+          "id": "dream-girlfriend:en",
+          "name": "EN",
+          "timeZone": "America/Los_Angeles",
+          "icon": "dream-girlfriend",
+          "dailyReset": {
+            "time": "23:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "duet-night-abyss",
+      "name": "Duet Night Abyss",
+      "servers": [
+        {
+          "id": "duet-night-abyss:america",
+          "name": "America",
+          "timeZone": "Etc/GMT+5",
+          "icon": "duet-night-abyss",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "duet-night-abyss:asia",
+          "name": "Asia",
+          "timeZone": "Etc/GMT-8",
+          "icon": "duet-night-abyss",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "duet-night-abyss:europe",
+          "name": "Europe",
+          "timeZone": "Etc/GMT-1",
+          "icon": "duet-night-abyss",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "duet-night-abyss:hmt",
+          "name": "HMT",
+          "timeZone": "Etc/GMT-8",
+          "icon": "duet-night-abyss",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "duet-night-abyss:sea",
+          "name": "SEA",
+          "timeZone": "Etc/GMT-8",
+          "icon": "duet-night-abyss",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "echocalypse",
+      "name": "Echocalypse",
+      "servers": [
+        {
+          "id": "echocalypse:eu",
+          "name": "EU",
+          "timeZone": "Etc/GMT-1",
+          "icon": "echocalypse",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "echocalypse:sea",
+          "name": "SEA",
+          "timeZone": "Etc/GMT-8",
+          "icon": "echocalypse",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "egg-inc",
+      "name": "Egg, Inc.",
+      "servers": [
+        {
+          "id": "egg-inc:global",
+          "name": "Global",
+          "timeZone": "America/Los_Angeles",
+          "icon": "egg-inc",
+          "dailyReset": {
+            "time": "16:00",
+            "basis": "utc"
+          }
+        }
+      ]
+    },
+    {
+      "id": "elpis-fallen-star",
+      "name": "Elpis: Fallen Star",
+      "servers": [
+        {
+          "id": "elpis-fallen-star:global",
+          "name": "Global",
+          "timeZone": "Etc/UTC",
+          "icon": "elpis-fallen-star",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ensemble-stars-basic",
+      "name": "Ensemble Stars!! Basic",
+      "servers": [
+        {
+          "id": "ensemble-stars-basic:jp",
+          "name": "JP",
+          "timeZone": "Asia/Tokyo",
+          "icon": "ensemble-stars-basic",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ensemble-stars-music",
+      "name": "Ensemble Stars!! Music",
+      "servers": [
+        {
+          "id": "ensemble-stars-music:en",
+          "name": "EN",
+          "timeZone": "Etc/GMT+5",
+          "icon": "ensemble-stars-music",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "ensemble-stars-music:jp",
+          "name": "JP",
+          "timeZone": "Asia/Tokyo",
+          "icon": "ensemble-stars-music",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "ensemble-stars-music:tw",
+          "name": "TW",
+          "timeZone": "Asia/Taipei",
+          "icon": "ensemble-stars-music",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "epic-seven",
+      "name": "Epic Seven",
+      "servers": [
+        {
+          "id": "epic-seven:asia",
+          "name": "Asia",
+          "timeZone": "Etc/UTC",
+          "icon": "epic-seven",
+          "dailyReset": {
+            "time": "18:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "epic-seven:europe",
+          "name": "Europe",
+          "timeZone": "Europe/Paris",
+          "icon": "epic-seven",
+          "dailyReset": {
+            "time": "03:00",
+            "basis": "utc"
+          }
+        },
+        {
+          "id": "epic-seven:global",
+          "name": "Global",
+          "timeZone": "Etc/UTC",
+          "icon": "epic-seven",
+          "dailyReset": {
+            "time": "10:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "epic-seven:korea",
+          "name": "Korea",
+          "timeZone": "Asia/Seoul",
+          "icon": "epic-seven",
+          "dailyReset": {
+            "time": "03:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "etheria-restart",
+      "name": "Etheria: Restart",
+      "servers": [
+        {
+          "id": "etheria-restart:global",
+          "name": "Global",
+          "timeZone": "Etc/GMT+5",
+          "icon": "etheria-restart",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "evertale",
+      "name": "Evertale",
+      "servers": [
+        {
+          "id": "evertale:asia",
+          "name": "Asia",
+          "timeZone": "Etc/GMT-9",
+          "icon": "evertale",
+          "dailyReset": {
+            "time": "10:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "evo-defense",
+      "name": "Evo Defense",
+      "servers": [
+        {
+          "id": "evo-defense:en",
+          "name": "EN",
+          "timeZone": "Etc/GMT+4",
+          "icon": "evo-defense",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fap-ceo",
+      "name": "Fap CEO",
+      "servers": [
+        {
+          "id": "fap-ceo:global",
+          "name": "Global",
+          "timeZone": "Etc/UTC",
+          "icon": "fap-ceo",
+          "dailyReset": {
+            "time": "14:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fate-grand-order",
+      "name": "Fate/Grand Order",
+      "servers": [
+        {
+          "id": "fate-grand-order:jp",
+          "name": "JP",
+          "timeZone": "Asia/Tokyo",
+          "icon": "fate-grand-order",
+          "dailyReset": {
+            "time": "04:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "fate-grand-order:na",
+          "name": "NA",
+          "timeZone": "America/Los_Angeles",
+          "icon": "fate-grand-order",
+          "dailyReset": {
+            "time": "04:00",
+            "basis": "utc"
+          }
+        }
+      ]
+    },
+    {
+      "id": "figure-fantasy",
+      "name": "Figure Fantasy",
+      "servers": [
+        {
+          "id": "figure-fantasy:sea",
+          "name": "SEA",
+          "timeZone": "Etc/GMT-7",
+          "icon": "figure-fantasy",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "final-fantasy-xiv",
+      "name": "FINAL FANTASY XIV",
+      "servers": [
+        {
+          "id": "final-fantasy-xiv:global",
+          "name": "Global",
+          "timeZone": "Etc/GMT",
+          "icon": "ff-xiv",
+          "dailyReset": {
+            "time": "15:00",
+            "basis": "utc"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fire-emblem-heroes",
+      "name": "Fire Emblem Heroes",
+      "servers": [
+        {
+          "id": "fire-emblem-heroes:global",
+          "name": "Global",
+          "timeZone": "Etc/UTC",
+          "icon": "fire-emblem-heroes",
+          "dailyReset": {
+            "time": "07:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "food-fantasy",
+      "name": "Food Fantasy",
+      "servers": [
+        {
+          "id": "food-fantasy:global",
+          "name": "Global",
+          "timeZone": "Etc/UTC",
+          "icon": "food-fantasy",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fortnite",
+      "name": "Fortnite",
+      "servers": [
+        {
+          "id": "fortnite:global",
+          "name": "Global",
+          "timeZone": "America/New_York",
+          "icon": "fortnite",
+          "dailyReset": {
+            "time": "14:00",
+            "basis": "utc"
+          }
+        }
+      ]
+    },
+    {
+      "id": "free-fire",
+      "name": "Free Fire",
+      "servers": [
+        {
+          "id": "free-fire:indonesia",
+          "name": "Indonesia",
+          "timeZone": "Asia/Jakarta",
+          "icon": "free-fire",
+          "dailyReset": {
+            "time": "15:30",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gakuen-idolm-ster",
+      "name": "Gakuen Idolm@ster",
+      "servers": [
+        {
+          "id": "gakuen-idolm-ster:jp",
+          "name": "JP",
+          "timeZone": "Asia/Tokyo",
+          "icon": "gakuen-idolmaster",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "genshin-impact",
+      "name": "Genshin Impact",
+      "servers": [
+        {
+          "id": "genshin-impact:america",
+          "name": "America",
+          "timeZone": "Etc/GMT+5",
+          "icon": "genshin-impact",
+          "dailyReset": {
+            "time": "04:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "genshin-impact:asia",
+          "name": "Asia",
+          "timeZone": "Etc/GMT-8",
+          "icon": "genshin-impact",
+          "dailyReset": {
+            "time": "04:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "genshin-impact:europe",
+          "name": "Europe",
+          "timeZone": "Etc/GMT-1",
+          "icon": "genshin-impact",
+          "dailyReset": {
+            "time": "04:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gensokishi-online",
+      "name": "GensoKishi Online",
+      "servers": [
+        {
+          "id": "gensokishi-online:sg",
+          "name": "SG",
+          "timeZone": "Asia/Singapore",
+          "icon": "gensokishi-online",
+          "dailyReset": {
+            "time": "08:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "girls-frontline",
+      "name": "Girls' Frontline",
+      "servers": [
+        {
+          "id": "girls-frontline:en",
+          "name": "EN",
+          "timeZone": "Etc/GMT+8",
+          "icon": "girls-frontline",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "girls-frontline-2-exilium",
+      "name": "Girls' Frontline 2: Exilium",
+      "servers": [
+        {
+          "id": "girls-frontline-2-exilium:cn",
+          "name": "CN",
+          "timeZone": "Etc/GMT-8",
+          "icon": "girls-frontline-2",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "girls-frontline-2-exilium:darkwinter",
+          "name": "Darkwinter",
+          "timeZone": "Etc/GMT+8",
+          "icon": "girls-frontline-2",
+          "dailyReset": {
+            "time": "01:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "girls-frontline-2-exilium:haoplay-asia",
+          "name": "Haoplay Asia",
+          "timeZone": "Etc/GMT-8",
+          "icon": "girls-frontline-2",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "girls-frontline-2-exilium:haoplay-global",
+          "name": "Haoplay Global",
+          "timeZone": "Etc/GMT+8",
+          "icon": "girls-frontline-2",
+          "dailyReset": {
+            "time": "21:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "girls-frontline-2-exilium:haoplay-japan",
+          "name": "Haoplay Japan",
+          "timeZone": "Asia/Tokyo",
+          "icon": "girls-frontline-2",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "girls-frontline-2-exilium:haoplay-korea",
+          "name": "Haoplay Korea",
+          "timeZone": "Etc/GMT+9",
+          "icon": "girls-frontline-2",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "goddess-of-victory-nikke",
+      "name": "GODDESS OF VICTORY: NIKKE",
+      "servers": [
+        {
+          "id": "goddess-of-victory-nikke:global",
+          "name": "Global",
+          "timeZone": "Etc/GMT-9",
+          "icon": "goddess-of-victory-nikke",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "goddess-of-victory-nikke:jp",
+          "name": "JP",
+          "timeZone": "Etc/GMT-9",
+          "icon": "goddess-of-victory-nikke",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "goddess-of-victory-nikke:na",
+          "name": "NA",
+          "timeZone": "Etc/GMT-9",
+          "icon": "goddess-of-victory-nikke",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "goddess-of-victory-nikke:sea",
+          "name": "SEA",
+          "timeZone": "Etc/GMT-8",
+          "icon": "goddess-of-victory-nikke",
+          "dailyReset": {
+            "time": "04:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "granblue-fantasy",
+      "name": "Granblue Fantasy",
+      "servers": [
+        {
+          "id": "granblue-fantasy:global",
+          "name": "Global",
+          "timeZone": "Asia/Tokyo",
+          "icon": "granblue-fantasy",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "granblue-fantasy-versus-rising",
+      "name": "Granblue Fantasy Versus: Rising",
+      "servers": [
+        {
+          "id": "granblue-fantasy-versus-rising:global",
+          "name": "Global",
+          "timeZone": "Asia/Tokyo",
+          "icon": "granblue-fantasy-versus-rising",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "grand-chase-dimensional-chaser",
+      "name": "Grand Chase: Dimensional Chaser",
+      "servers": [
+        {
+          "id": "grand-chase-dimensional-chaser:asia",
+          "name": "Asia",
+          "timeZone": "Etc/GMT-9",
+          "icon": "grand-chase-dimensional-chaser",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "grand-chase-dimensional-chaser:west",
+          "name": "West",
+          "timeZone": "America/Panama",
+          "icon": "grand-chase-dimensional-chaser",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "utc"
+          }
+        }
+      ]
+    },
+    {
+      "id": "grand-summoners",
+      "name": "Grand Summoners",
+      "servers": [
+        {
+          "id": "grand-summoners:global",
+          "name": "Global",
+          "timeZone": "Asia/Tokyo",
+          "icon": "grand-summoners",
+          "dailyReset": {
+            "time": "21:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "grand-theft-auto-online",
+      "name": "Grand Theft Auto Online",
+      "servers": [
+        {
+          "id": "grand-theft-auto-online:global",
+          "name": "Global",
+          "timeZone": "Etc/GMT+8",
+          "icon": "gta-online",
+          "dailyReset": {
+            "time": "22:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "guardian-tales",
+      "name": "Guardian Tales",
+      "servers": [
+        {
+          "id": "guardian-tales:asia",
+          "name": "Asia",
+          "timeZone": "Etc/GMT-8",
+          "icon": "guardian-tales",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "guardian-tales:eu",
+          "name": "EU",
+          "timeZone": "Etc/UTC",
+          "icon": "guardian-tales",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "guardian-tales:la",
+          "name": "LA",
+          "timeZone": "America/Maceio",
+          "icon": "guardian-tales",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "guardian-tales:na",
+          "name": "NA",
+          "timeZone": "America/Los_Angeles",
+          "icon": "guardian-tales",
+          "dailyReset": {
+            "time": "08:00",
+            "basis": "utc"
+          }
+        },
+        {
+          "id": "guardian-tales:oc",
+          "name": "OC",
+          "timeZone": "Australia/Brisbane",
+          "icon": "guardian-tales",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "guardian-tales:switch",
+          "name": "Switch",
+          "timeZone": "America/Los_Angeles",
+          "icon": "guardian-tales",
+          "dailyReset": {
+            "time": "12:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "guild-wars-2",
+      "name": "Guild Wars 2",
+      "servers": [
+        {
+          "id": "guild-wars-2:eu-and-na",
+          "name": "EU & NA",
+          "timeZone": "Etc/UTC",
+          "icon": "guild-wars-2",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "guns-girl-z",
+      "name": "Guns Girl Z",
+      "servers": [
+        {
+          "id": "guns-girl-z:jp",
+          "name": "JP",
+          "timeZone": "Etc/GMT-9",
+          "icon": "guns-girl-z",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gyee",
+      "name": "GYEE",
+      "servers": [
+        {
+          "id": "gyee:na",
+          "name": "NA",
+          "timeZone": "Etc/GMT+4",
+          "icon": "gyee",
+          "dailyReset": {
+            "time": "04:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "gyee:sea",
+          "name": "SEA",
+          "timeZone": "Etc/GMT-8",
+          "icon": "gyee",
+          "dailyReset": {
+            "time": "04:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "hatsune-miku-colorful-stage",
+      "name": "HATSUNE MIKU: COLORFUL STAGE!",
+      "servers": [
+        {
+          "id": "hatsune-miku-colorful-stage:en",
+          "name": "EN",
+          "timeZone": "America/Los_Angeles",
+          "icon": "hatsune-miku-colorful-stage",
+          "dailyReset": {
+            "time": "04:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "haze-reverb",
+      "name": "Haze Reverb",
+      "servers": [
+        {
+          "id": "haze-reverb:en",
+          "name": "EN",
+          "timeZone": "Etc/GMT+7",
+          "icon": "haze-reverb",
+          "dailyReset": {
+            "time": "04:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "heartopia",
+      "name": "Heartopia",
+      "servers": [
+        {
+          "id": "heartopia:america",
+          "name": "America",
+          "timeZone": "Etc/GMT+5",
+          "icon": "heartopia",
+          "dailyReset": {
+            "time": "06:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "heartopia:asia",
+          "name": "Asia",
+          "timeZone": "Etc/GMT-9",
+          "icon": "heartopia",
+          "dailyReset": {
+            "time": "06:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "heartopia:global",
+          "name": "Global",
+          "timeZone": "Etc/GMT-1",
+          "icon": "heartopia",
+          "dailyReset": {
+            "time": "06:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "heartopia:sea",
+          "name": "SEA",
+          "timeZone": "Etc/GMT-7",
+          "icon": "heartopia",
+          "dailyReset": {
+            "time": "06:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "heartopia:tw-hk-mo",
+          "name": "TW,HK,MO",
+          "timeZone": "Etc/GMT-8",
+          "icon": "heartopia",
+          "dailyReset": {
+            "time": "06:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "heaven-burns-red",
+      "name": "Heaven Burns Red",
+      "servers": [
+        {
+          "id": "heaven-burns-red:global",
+          "name": "Global",
+          "timeZone": "Etc/GMT+7",
+          "icon": "heaven-burns-red",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "heaven-burns-red:jp",
+          "name": "JP",
+          "timeZone": "Asia/Tokyo",
+          "icon": "heaven-burns-red",
+          "dailyReset": {
+            "time": "04:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "helios-rising-heroes",
+      "name": "HELIOS Rising Heroes",
+      "servers": [
+        {
+          "id": "helios-rising-heroes:jp",
+          "name": "JP",
+          "timeZone": "Asia/Tokyo",
+          "icon": "helios-rising-heroes",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "hello-kitty-dream-village",
+      "name": "Hello Kitty Dream Village",
+      "servers": [
+        {
+          "id": "hello-kitty-dream-village:global",
+          "name": "Global",
+          "timeZone": "Asia/Tokyo",
+          "icon": "hello-kitty-dream-village",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "hello-kitty-island-adventure",
+      "name": "Hello Kitty Island Adventure",
+      "servers": [
+        {
+          "id": "hello-kitty-island-adventure:global",
+          "name": "Global",
+          "timeZone": "Etc/GMT",
+          "icon": "hello-kitty-island-adventure",
+          "dailyReset": {
+            "time": "06:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "higan-eruthyll",
+      "name": "Higan: Eruthyll",
+      "servers": [
+        {
+          "id": "higan-eruthyll:global",
+          "name": "Global",
+          "timeZone": "Etc/GMT+8",
+          "icon": "higan-eruthyll",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "hololive-dreams",
+      "name": "Hololive Dreams",
+      "servers": [
+        {
+          "id": "hololive-dreams:global",
+          "name": "Global",
+          "timeZone": "Asia/Tokyo",
+          "icon": "hololive-dreams",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "honkai-impact-3rd",
+      "name": "Honkai Impact 3rd",
+      "servers": [
+        {
+          "id": "honkai-impact-3rd:americas",
+          "name": "Americas",
+          "timeZone": "Etc/GMT+5",
+          "icon": "honkai-impact-3rd",
+          "dailyReset": {
+            "time": "04:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "honkai-impact-3rd:asia",
+          "name": "Asia",
+          "timeZone": "Etc/GMT-8",
+          "icon": "honkai-impact-3rd",
+          "dailyReset": {
+            "time": "04:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "honkai-impact-3rd:china",
+          "name": "China",
+          "timeZone": "Etc/GMT-8",
+          "icon": "honkai-impact-3rd",
+          "dailyReset": {
+            "time": "04:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "honkai-impact-3rd:europe",
+          "name": "Europe",
+          "timeZone": "Etc/GMT-1",
+          "icon": "honkai-impact-3rd",
+          "dailyReset": {
+            "time": "04:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "honkai-star-rail",
+      "name": "Honkai: Star Rail",
+      "servers": [
+        {
+          "id": "honkai-star-rail:america",
+          "name": "America",
+          "timeZone": "Etc/GMT+5",
+          "icon": "honkai-star-rail",
+          "dailyReset": {
+            "time": "04:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "honkai-star-rail:asia",
+          "name": "Asia",
+          "timeZone": "Etc/GMT-8",
+          "icon": "honkai-star-rail",
+          "dailyReset": {
+            "time": "04:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "honkai-star-rail:europe",
+          "name": "Europe",
+          "timeZone": "Etc/GMT-1",
+          "icon": "honkai-star-rail",
+          "dailyReset": {
+            "time": "04:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "honor-of-kings",
+      "name": "Honor of Kings",
+      "servers": [
+        {
+          "id": "honor-of-kings:global",
+          "name": "Global",
+          "timeZone": "Etc/UTC",
+          "icon": "honor-of-kings",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "horizon-walker",
+      "name": "Horizon Walker",
+      "servers": [
+        {
+          "id": "horizon-walker:global",
+          "name": "Global",
+          "timeZone": "Asia/Seoul",
+          "icon": "horizon-walker",
+          "dailyReset": {
+            "time": "10:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "hypnosis-mic-alternative-rap-battle",
+      "name": "Hypnosis Mic -Alternative Rap Battle-",
+      "servers": [
+        {
+          "id": "hypnosis-mic-alternative-rap-battle:jp",
+          "name": "JP",
+          "timeZone": "Asia/Tokyo",
+          "icon": "hypnosis-mic-arb",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "identity-v",
+      "name": "Identity V",
+      "servers": [
+        {
+          "id": "identity-v:asia",
+          "name": "Asia",
+          "timeZone": "Etc/GMT-8",
+          "icon": "identity-v",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "identity-v:na-and-eu",
+          "name": "NA and EU",
+          "timeZone": "Etc/GMT+6",
+          "icon": "identity-v",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "idle-angels",
+      "name": "Idle Angels",
+      "servers": [
+        {
+          "id": "idle-angels:america",
+          "name": "America",
+          "timeZone": "America/Argentina/Buenos_Aires",
+          "icon": "idle-angels",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "idle-heroes",
+      "name": "Idle Heroes",
+      "servers": [
+        {
+          "id": "idle-heroes:global",
+          "name": "Global",
+          "timeZone": "Etc/UTC",
+          "icon": "idle-heroes",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "idle-huntress",
+      "name": "Idle Huntress",
+      "servers": [
+        {
+          "id": "idle-huntress:global",
+          "name": "Global",
+          "timeZone": "Etc/GMT+5",
+          "icon": "idle-huntress",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "idolish7",
+      "name": "IDOLiSH7",
+      "servers": [
+        {
+          "id": "idolish7:jp",
+          "name": "JP",
+          "timeZone": "Asia/Tokyo",
+          "icon": "idolish7",
+          "dailyReset": {
+            "time": "04:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "idoly-pride-idol-manager",
+      "name": "IDOLY PRIDE : Idol Manager",
+      "servers": [
+        {
+          "id": "idoly-pride-idol-manager:global",
+          "name": "Global",
+          "timeZone": "America/Los_Angeles",
+          "icon": "idoly-pride-idol-manager",
+          "dailyReset": {
+            "time": "07:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "idoly-pride-idol-manager:jp",
+          "name": "JP",
+          "timeZone": "Asia/Tokyo",
+          "icon": "idoly-pride-idol-manager",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ikemen-villains",
+      "name": "Ikemen Villains",
+      "servers": [
+        {
+          "id": "ikemen-villains:en",
+          "name": "EN",
+          "timeZone": "America/Los_Angeles",
+          "icon": "ikemen-villains",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "illusion-connect-re",
+      "name": "Illusion Connect: Re",
+      "servers": [
+        {
+          "id": "illusion-connect-re:eu",
+          "name": "EU",
+          "timeZone": "Etc/GMT-2",
+          "icon": "illusion-connect-re",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "infinity-nikki",
+      "name": "Infinity Nikki",
+      "servers": [
+        {
+          "id": "infinity-nikki:america",
+          "name": "America",
+          "timeZone": "Etc/GMT+7",
+          "icon": "infinity-nikki",
+          "dailyReset": {
+            "time": "04:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "infinity-nikki:asia",
+          "name": "Asia",
+          "timeZone": "Etc/GMT-8",
+          "icon": "infinity-nikki",
+          "dailyReset": {
+            "time": "04:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "infinity-nikki:europe",
+          "name": "Europe",
+          "timeZone": "Etc/GMT-2",
+          "icon": "infinity-nikki",
+          "dailyReset": {
+            "time": "04:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "iruna-online",
+      "name": "IRUNA Online",
+      "servers": [
+        {
+          "id": "iruna-online:global",
+          "name": "Global",
+          "timeZone": "Etc/GMT+7",
+          "icon": "iruna-online",
+          "dailyReset": {
+            "time": "22:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "isekai-slow-life",
+      "name": "Isekai:Slow Life",
+      "servers": [
+        {
+          "id": "isekai-slow-life:americas",
+          "name": "Americas",
+          "timeZone": "Etc/GMT+5",
+          "icon": "isekai-slow-life",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "isekai-slow-life:europe",
+          "name": "Europe",
+          "timeZone": "Etc/UTC",
+          "icon": "isekai-slow-life",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "journeys-in-the-immortal-realm",
+      "name": "Journeys in the Immortal Realm",
+      "servers": [
+        {
+          "id": "journeys-in-the-immortal-realm:global",
+          "name": "Global",
+          "timeZone": "Etc/GMT+4",
+          "icon": "journeys-in-the-immortal-realm",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "jujutsu-kaisen-phantom-parade",
+      "name": "Jujutsu Kaisen Phantom Parade",
+      "servers": [
+        {
+          "id": "jujutsu-kaisen-phantom-parade:global",
+          "name": "Global",
+          "timeZone": "Etc/GMT-9",
+          "icon": "jjk-phantom-parade",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kaiju-no-8-the-game",
+      "name": "KAIJU NO. 8 THE GAME",
+      "servers": [
+        {
+          "id": "kaiju-no-8-the-game:global",
+          "name": "Global",
+          "timeZone": "Asia/Tokyo",
+          "icon": "kaiju-no-8",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kamihime-project",
+      "name": "Kamihime PROJECT",
+      "servers": [
+        {
+          "id": "kamihime-project:global",
+          "name": "Global",
+          "timeZone": "America/Los_Angeles",
+          "icon": "kamihime-project",
+          "dailyReset": {
+            "time": "17:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kantai-collection",
+      "name": "Kantai Collection",
+      "servers": [
+        {
+          "id": "kantai-collection:jp",
+          "name": "JP",
+          "timeZone": "Asia/Tokyo",
+          "icon": "kantai-collection",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kemono-friends-3",
+      "name": "Kemono Friends 3",
+      "servers": [
+        {
+          "id": "kemono-friends-3:jp",
+          "name": "JP",
+          "timeZone": "Asia/Tokyo",
+          "icon": "kemono-friends-3",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "king-god-castle",
+      "name": "King God Castle",
+      "servers": [
+        {
+          "id": "king-god-castle:global",
+          "name": "Global",
+          "timeZone": "Asia/Seoul",
+          "icon": "king-god-castle",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "langrisser",
+      "name": "Langrisser",
+      "servers": [
+        {
+          "id": "langrisser:global",
+          "name": "Global",
+          "timeZone": "America/Chicago",
+          "icon": "langrisser",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "last-cloudia",
+      "name": "LAST CLOUDIA",
+      "servers": [
+        {
+          "id": "last-cloudia:en",
+          "name": "EN",
+          "timeZone": "America/Los_Angeles",
+          "icon": "last-cloudia",
+          "dailyReset": {
+            "time": "19:00",
+            "basis": "utc"
+          }
+        }
+      ]
+    },
+    {
+      "id": "last-origin",
+      "name": "Last Origin",
+      "servers": [
+        {
+          "id": "last-origin:japan",
+          "name": "Japan",
+          "timeZone": "Asia/Tokyo",
+          "icon": "last-origin-jp",
+          "dailyReset": {
+            "time": "09:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "last-origin:korea",
+          "name": "Korea",
+          "timeZone": "Asia/Seoul",
+          "icon": "last-origin-kr",
+          "dailyReset": {
+            "time": "09:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "last-origin-r",
+      "name": "LAST ORIGIN R+",
+      "servers": [
+        {
+          "id": "last-origin-r:global",
+          "name": "Global",
+          "timeZone": "Etc/GMT-8",
+          "icon": "last-origin-r",
+          "dailyReset": {
+            "time": "08:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "legend-clover",
+      "name": "Legend Clover",
+      "servers": [
+        {
+          "id": "legend-clover:en",
+          "name": "EN",
+          "timeZone": "Etc/UTC",
+          "icon": "legend-clover",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "legends-of-runeterra",
+      "name": "Legends of Runeterra",
+      "servers": [
+        {
+          "id": "legends-of-runeterra:global",
+          "name": "Global",
+          "timeZone": "America/Los_Angeles",
+          "icon": "legends-of-runeterra",
+          "dailyReset": {
+            "time": "03:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "life-makeover",
+      "name": "Life Makeover",
+      "servers": [
+        {
+          "id": "life-makeover:global",
+          "name": "Global",
+          "timeZone": "Etc/UTC",
+          "icon": "life-makeover",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "light-and-night",
+      "name": "Light and Night",
+      "servers": [
+        {
+          "id": "light-and-night:cn-and-tw",
+          "name": "CN & TW",
+          "timeZone": "Etc/GMT-8",
+          "icon": "light-and-night",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "light-and-night:sea",
+          "name": "SEA",
+          "timeZone": "Etc/GMT-7",
+          "icon": "light-and-night",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "limbus-company",
+      "name": "Limbus Company",
+      "servers": [
+        {
+          "id": "limbus-company:global",
+          "name": "Global",
+          "timeZone": "Asia/Seoul",
+          "icon": "limbus-company",
+          "dailyReset": {
+            "time": "06:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "live-a-hero",
+      "name": "LIVE A HERO",
+      "servers": [
+        {
+          "id": "live-a-hero:jp",
+          "name": "JP",
+          "timeZone": "Asia/Tokyo",
+          "icon": "live-a-hero",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "lord-of-nazarick",
+      "name": "Lord of Nazarick",
+      "servers": [
+        {
+          "id": "lord-of-nazarick:global",
+          "name": "Global",
+          "timeZone": "Etc/GMT+2",
+          "icon": "lord-of-nazarick",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "lost-ark",
+      "name": "Lost Ark",
+      "servers": [
+        {
+          "id": "lost-ark:eu-central",
+          "name": "EU Central",
+          "timeZone": "Europe/Paris",
+          "icon": "lost-ark",
+          "dailyReset": {
+            "time": "10:00",
+            "basis": "utc"
+          }
+        },
+        {
+          "id": "lost-ark:eu-west",
+          "name": "EU West",
+          "timeZone": "Etc/GMT",
+          "icon": "lost-ark",
+          "dailyReset": {
+            "time": "10:00",
+            "basis": "utc"
+          }
+        },
+        {
+          "id": "lost-ark:na-east",
+          "name": "NA East",
+          "timeZone": "America/New_York",
+          "icon": "lost-ark",
+          "dailyReset": {
+            "time": "10:00",
+            "basis": "utc"
+          }
+        },
+        {
+          "id": "lost-ark:na-west",
+          "name": "NA West",
+          "timeZone": "America/Los_Angeles",
+          "icon": "lost-ark",
+          "dailyReset": {
+            "time": "10:00",
+            "basis": "utc"
+          }
+        },
+        {
+          "id": "lost-ark:south-america",
+          "name": "South America",
+          "timeZone": "America/Sao_Paulo",
+          "icon": "lost-ark",
+          "dailyReset": {
+            "time": "10:00",
+            "basis": "utc"
+          }
+        }
+      ]
+    },
+    {
+      "id": "lost-sword",
+      "name": "Lost Sword",
+      "servers": [
+        {
+          "id": "lost-sword:global",
+          "name": "Global",
+          "timeZone": "Etc/GMT-9",
+          "icon": "lost-sword",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "love-and-deepspace",
+      "name": "Love and Deepspace",
+      "servers": [
+        {
+          "id": "love-and-deepspace:asia",
+          "name": "Asia",
+          "timeZone": "Etc/GMT-8",
+          "icon": "love-and-deepspace",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "love-and-deepspace:eu",
+          "name": "EU",
+          "timeZone": "Etc/GMT-2",
+          "icon": "love-and-deepspace",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "love-and-deepspace:na",
+          "name": "NA",
+          "timeZone": "Etc/GMT+7",
+          "icon": "love-and-deepspace",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "love-nikki",
+      "name": "Love Nikki",
+      "servers": [
+        {
+          "id": "love-nikki:en",
+          "name": "EN",
+          "timeZone": "Etc/GMT+8",
+          "icon": "love-nikki",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "lovebrush-chronicles",
+      "name": "Lovebrush Chronicles",
+      "servers": [
+        {
+          "id": "lovebrush-chronicles:global",
+          "name": "Global",
+          "timeZone": "Etc/GMT-8",
+          "icon": "lovebrush-chronicles",
+          "dailyReset": {
+            "time": "04:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "lust-goddess",
+      "name": "Lust Goddess",
+      "servers": [
+        {
+          "id": "lust-goddess:global",
+          "name": "Global",
+          "timeZone": "Etc/UTC",
+          "icon": "lust-goddess",
+          "dailyReset": {
+            "time": "18:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mabinogi",
+      "name": "Mabinogi",
+      "servers": [
+        {
+          "id": "mabinogi:na",
+          "name": "NA",
+          "timeZone": "America/Los_Angeles",
+          "icon": "mabinogi",
+          "dailyReset": {
+            "time": "07:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "madoka-magica-magia-exedra",
+      "name": "Madoka Magica Magia Exedra",
+      "servers": [
+        {
+          "id": "madoka-magica-magia-exedra:global",
+          "name": "Global",
+          "timeZone": "Asia/Tokyo",
+          "icon": "magia-exedra",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "magic-the-gathering-arena",
+      "name": "Magic: The Gathering Arena",
+      "servers": [
+        {
+          "id": "magic-the-gathering-arena:global",
+          "name": "Global",
+          "timeZone": "Etc/UTC",
+          "icon": "magic-the-gathering-arena",
+          "dailyReset": {
+            "time": "09:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mahjong-soul",
+      "name": "Mahjong Soul",
+      "servers": [
+        {
+          "id": "mahjong-soul:global",
+          "name": "Global",
+          "timeZone": "Etc/GMT+7",
+          "icon": "mahjong-soul",
+          "dailyReset": {
+            "time": "14:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "make-drama-mad",
+      "name": "MAke Drama : MAD",
+      "servers": [
+        {
+          "id": "make-drama-mad:global",
+          "name": "Global",
+          "timeZone": "Etc/GMT-9",
+          "icon": "make-drama-mad",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "maplestory",
+      "name": "MapleStory",
+      "servers": [
+        {
+          "id": "maplestory:gms",
+          "name": "GMS",
+          "timeZone": "Etc/UTC",
+          "icon": "maplestory",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "maplestory-m",
+      "name": "MapleStory M",
+      "servers": [
+        {
+          "id": "maplestory-m:america",
+          "name": "America",
+          "timeZone": "Etc/GMT+8",
+          "icon": "maplestory-m",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "maplestory-m:asia",
+          "name": "Asia",
+          "timeZone": "Etc/GMT-8",
+          "icon": "maplestory-m",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "maplestory-m:europe",
+          "name": "Europe",
+          "timeZone": "Etc/GMT-2",
+          "icon": "maplestory-m",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mecharashi",
+      "name": "Mecharashi",
+      "servers": [
+        {
+          "id": "mecharashi:global",
+          "name": "Global",
+          "timeZone": "Etc/GMT+7",
+          "icon": "mecharashi",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mementomori",
+      "name": "MementoMori",
+      "servers": [
+        {
+          "id": "mementomori:eu-global",
+          "name": "EU/Global",
+          "timeZone": "Etc/GMT-1",
+          "icon": "memento-mori",
+          "dailyReset": {
+            "time": "04:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "mementomori:us",
+          "name": "US",
+          "timeZone": "Etc/GMT+7",
+          "icon": "memento-mori",
+          "dailyReset": {
+            "time": "04:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "millennium-war-aigis",
+      "name": "Millennium War Aigis",
+      "servers": [
+        {
+          "id": "millennium-war-aigis:jp",
+          "name": "JP",
+          "timeZone": "Asia/Tokyo",
+          "icon": "millennium-war-aigis",
+          "dailyReset": {
+            "time": "04:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mobile-legends-adventure",
+      "name": "Mobile Legends: Adventure",
+      "servers": [
+        {
+          "id": "mobile-legends-adventure:global",
+          "name": "Global",
+          "timeZone": "Etc/GMT+8",
+          "icon": "mobile-legends-adventure",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mobile-legends-bang-bang",
+      "name": "Mobile Legends: Bang Bang",
+      "servers": [
+        {
+          "id": "mobile-legends-bang-bang:global",
+          "name": "Global",
+          "timeZone": "Etc/GMT+8",
+          "icon": "mobile-legends-bang-bang",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mobile-suit-gundam-u-c-engage",
+      "name": "MOBILE SUIT GUNDAM U.C. ENGAGE",
+      "servers": [
+        {
+          "id": "mobile-suit-gundam-u-c-engage:global",
+          "name": "Global",
+          "timeZone": "Asia/Tokyo",
+          "icon": "mobile-suit-gundam-u-c-engage",
+          "dailyReset": {
+            "time": "11:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mongil-star-dive",
+      "name": "MONGIL: STAR DIVE",
+      "servers": [
+        {
+          "id": "mongil-star-dive:global",
+          "name": "Global",
+          "timeZone": "Etc/UTC",
+          "icon": "mongil-star-dive",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "morimens",
+      "name": "Morimens",
+      "servers": [
+        {
+          "id": "morimens:global",
+          "name": "Global",
+          "timeZone": "Etc/GMT-8",
+          "icon": "morimens",
+          "dailyReset": {
+            "time": "09:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "muvluv-girls-garden",
+      "name": "Muvluv Girls Garden",
+      "servers": [
+        {
+          "id": "muvluv-girls-garden:jp",
+          "name": "JP",
+          "timeZone": "Asia/Tokyo",
+          "icon": "muvluv-girls-garden",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "my-hero-ultra-rumble",
+      "name": "MY HERO ULTRA RUMBLE",
+      "servers": [
+        {
+          "id": "my-hero-ultra-rumble:global",
+          "name": "Global",
+          "timeZone": "Asia/Tokyo",
+          "icon": "my-hero-ultra-rumble",
+          "dailyReset": {
+            "time": "14:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mythic-heroes",
+      "name": "Mythic Heroes",
+      "servers": [
+        {
+          "id": "mythic-heroes:global",
+          "name": "Global",
+          "timeZone": "Etc/UTC",
+          "icon": "mythic-heroes",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mythic-samkok",
+      "name": "Mythic Samkok",
+      "servers": [
+        {
+          "id": "mythic-samkok:global",
+          "name": "Global",
+          "timeZone": "Etc/GMT-7",
+          "icon": "mythic-samkok",
+          "dailyReset": {
+            "time": "04:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "neural-cloud",
+      "name": "Neural Cloud",
+      "servers": [
+        {
+          "id": "neural-cloud:cn",
+          "name": "CN",
+          "timeZone": "Asia/Shanghai",
+          "icon": "neural-cloud",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "neural-cloud:en",
+          "name": "EN",
+          "timeZone": "Etc/GMT+8",
+          "icon": "neural-cloud",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "neverness-to-everness",
+      "name": "Neverness to Everness",
+      "servers": [
+        {
+          "id": "neverness-to-everness:america",
+          "name": "America",
+          "timeZone": "Etc/GMT+4",
+          "icon": "neverness-to-everness",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "neverness-to-everness:asia",
+          "name": "Asia",
+          "timeZone": "Etc/GMT-8",
+          "icon": "neverness-to-everness",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "neverness-to-everness:europe",
+          "name": "Europe",
+          "timeZone": "Etc/GMT-1",
+          "icon": "neverness-to-everness",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "neverness-to-everness:sea",
+          "name": "SEA",
+          "timeZone": "Etc/GMT-8",
+          "icon": "neverness-to-everness",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ni-no-kuni-cross-worlds",
+      "name": "Ni no Kuni: Cross Worlds",
+      "servers": [
+        {
+          "id": "ni-no-kuni-cross-worlds:global",
+          "name": "Global",
+          "timeZone": "Etc/GMT",
+          "icon": "ni-no-kuni-cross-worlds",
+          "dailyReset": {
+            "time": "06:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "nu-carnival",
+      "name": "NU: carnival",
+      "servers": [
+        {
+          "id": "nu-carnival:en",
+          "name": "EN",
+          "timeZone": "Etc/GMT-8",
+          "icon": "nu-carnival",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "obey-me",
+      "name": "Obey Me!",
+      "servers": [
+        {
+          "id": "obey-me:global",
+          "name": "Global",
+          "timeZone": "Asia/Tokyo",
+          "icon": "obey-me",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "octopath-traveler-champions-of-the-continent",
+      "name": "OCTOPATH TRAVELER: Champions of the Continent",
+      "servers": [
+        {
+          "id": "octopath-traveler-champions-of-the-continent:en",
+          "name": "EN",
+          "timeZone": "ETC/UTC",
+          "icon": "octopath-traveler-cotc",
+          "dailyReset": {
+            "time": "20:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "one-piece-bounty-rush",
+      "name": "ONE PIECE Bounty Rush",
+      "servers": [
+        {
+          "id": "one-piece-bounty-rush:global",
+          "name": "Global",
+          "timeZone": "ETC/UTC",
+          "icon": "one-piece-bounty-rush",
+          "dailyReset": {
+            "time": "20:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "one-piece-treasure-cruise",
+      "name": "ONE PIECE TREASURE CRUISE",
+      "servers": [
+        {
+          "id": "one-piece-treasure-cruise:global",
+          "name": "Global",
+          "timeZone": "America/Los_Angeles",
+          "icon": "one-piece-treasure-cruise",
+          "dailyReset": {
+            "time": "07:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "onmyoji",
+      "name": "Onmyoji",
+      "servers": [
+        {
+          "id": "onmyoji:en",
+          "name": "EN",
+          "timeZone": "America/Panama",
+          "icon": "onmyoji",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "oshiro-project-re-castle-defense",
+      "name": "Oshiro Project:RE Castle Defense",
+      "servers": [
+        {
+          "id": "oshiro-project-re-castle-defense:jp",
+          "name": "JP",
+          "timeZone": "Asia/Tokyo",
+          "icon": "oshiro-project-re",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "outerplane",
+      "name": "OUTERPLANE",
+      "servers": [
+        {
+          "id": "outerplane:global",
+          "name": "Global",
+          "timeZone": "Etc/UTC",
+          "icon": "outerplane",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "paladins",
+      "name": "Paladins",
+      "servers": [
+        {
+          "id": "paladins:na",
+          "name": "NA",
+          "timeZone": "America/Los_Angeles",
+          "icon": "paladins",
+          "dailyReset": {
+            "time": "01:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "palia",
+      "name": "Palia",
+      "servers": [
+        {
+          "id": "palia:global",
+          "name": "Global",
+          "timeZone": "America/Los_Angeles",
+          "icon": "palia",
+          "dailyReset": {
+            "time": "04:00",
+            "basis": "utc"
+          }
+        }
+      ]
+    },
+    {
+      "id": "palmon-survival",
+      "name": "Palmon: Survival",
+      "servers": [
+        {
+          "id": "palmon-survival:global",
+          "name": "Global",
+          "timeZone": "Etc/GMT+2",
+          "icon": "palmon-survival",
+          "dailyReset": {
+            "time": "04:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "path-to-nowhere",
+      "name": "Path to Nowhere",
+      "servers": [
+        {
+          "id": "path-to-nowhere:america",
+          "name": "America",
+          "timeZone": "Etc/GMT+7",
+          "icon": "path-to-nowhere",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "path-to-nowhere:asia-pacific",
+          "name": "Asia-Pacific",
+          "timeZone": "Etc/GMT-7",
+          "icon": "path-to-nowhere",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "path-to-nowhere:europe",
+          "name": "Europe",
+          "timeZone": "Etc/GMT-2",
+          "icon": "path-to-nowhere",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "persona5-the-phantom-x",
+      "name": "Persona5: The Phantom X",
+      "servers": [
+        {
+          "id": "persona5-the-phantom-x:cn",
+          "name": "CN",
+          "timeZone": "Asia/Shanghai",
+          "icon": "persona5-the-phantom-x-cn",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "persona5-the-phantom-x:en-and-jp",
+          "name": "EN & JP",
+          "timeZone": "Etc/UTC",
+          "icon": "persona5-the-phantom-x",
+          "dailyReset": {
+            "time": "20:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "persona5-the-phantom-x:kr",
+          "name": "KR",
+          "timeZone": "Asia/Seoul",
+          "icon": "persona5-the-phantom-x-kr",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "persona5-the-phantom-x:tw",
+          "name": "TW",
+          "timeZone": "Asia/Taipei",
+          "icon": "persona5-the-phantom-x-tw",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "phantasy-star-online-2-new-genesis",
+      "name": "Phantasy Star Online 2: New Genesis",
+      "servers": [
+        {
+          "id": "phantasy-star-online-2-new-genesis:global",
+          "name": "Global",
+          "timeZone": "America/Los_Angeles",
+          "icon": "phantasy-star-online-2-ng",
+          "dailyReset": {
+            "time": "07:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "phasmophobia",
+      "name": "Phasmophobia",
+      "servers": [
+        {
+          "id": "phasmophobia:global",
+          "name": "Global",
+          "timeZone": "Etc/GMT",
+          "icon": "phasmophobia",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pixel-heroes-tales-of-emond",
+      "name": "Pixel Heroes: Tales of Emond",
+      "servers": [
+        {
+          "id": "pixel-heroes-tales-of-emond:eu",
+          "name": "EU",
+          "timeZone": "Etc/GMT-1",
+          "icon": "pixel-heroes-tales-of-emond",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "pixel-heroes-tales-of-emond:na",
+          "name": "NA",
+          "timeZone": "Etc/GMT+5",
+          "icon": "pixel-heroes-tales-of-emond",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pokemon-masters-ex",
+      "name": "Pokémon Masters EX",
+      "servers": [
+        {
+          "id": "pokemon-masters-ex:global",
+          "name": "Global",
+          "timeZone": "Etc/UTC",
+          "icon": "pokemon-masters-ex",
+          "dailyReset": {
+            "time": "06:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pokemon-tcg-live",
+      "name": "Pokémon TCG Live",
+      "servers": [
+        {
+          "id": "pokemon-tcg-live:global",
+          "name": "Global",
+          "timeZone": "Etc/UTC",
+          "icon": "pokemon-tcg-live",
+          "dailyReset": {
+            "time": "17:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pokemon-tcg-pocket",
+      "name": "Pokémon TCG Pocket",
+      "servers": [
+        {
+          "id": "pokemon-tcg-pocket:global",
+          "name": "Global",
+          "timeZone": "Etc/UTC",
+          "icon": "pokemon-tcg-pocket",
+          "dailyReset": {
+            "time": "06:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pokemon-unite",
+      "name": "Pokémon UNITE",
+      "servers": [
+        {
+          "id": "pokemon-unite:global",
+          "name": "Global",
+          "timeZone": "Etc/UTC",
+          "icon": "pokemon-unite",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "princess-connect-re-dive",
+      "name": "Princess Connect! Re:Dive",
+      "servers": [
+        {
+          "id": "princess-connect-re-dive:jp",
+          "name": "JP",
+          "timeZone": "Asia/Tokyo",
+          "icon": "princess-connect-re-dive",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "princess-connect-re-dive:tw",
+          "name": "TW",
+          "timeZone": "Asia/Taipei",
+          "icon": "princess-connect-re-dive",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "project-sekai-colorful-stage-feat-hatsune-miku",
+      "name": "Project SEKAI COLORFUL STAGE! feat. Hatsune Miku",
+      "servers": [
+        {
+          "id": "project-sekai-colorful-stage-feat-hatsune-miku:jp",
+          "name": "JP",
+          "timeZone": "Asia/Tokyo",
+          "icon": "project-sekai-colorful-stage-jp",
+          "dailyReset": {
+            "time": "04:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "project-sekai-colorful-stage-feat-hatsune-miku:kr",
+          "name": "KR",
+          "timeZone": "Asia/Seoul",
+          "icon": "project-sekai-colorful-stage",
+          "dailyReset": {
+            "time": "04:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "project-sekai-colorful-stage-feat-hatsune-miku:tw",
+          "name": "TW",
+          "timeZone": "Asia/Taipei",
+          "icon": "project-sekai-colorful-stage",
+          "dailyReset": {
+            "time": "04:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pubg-mobile",
+      "name": "PUBG MOBILE",
+      "servers": [
+        {
+          "id": "pubg-mobile:global",
+          "name": "Global",
+          "timeZone": "Etc/UTC",
+          "icon": "pubg-mobile",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "punishing-gray-raven",
+      "name": "Punishing: Gray Raven",
+      "servers": [
+        {
+          "id": "punishing-gray-raven:china-and-taiwain",
+          "name": "China & Taiwain",
+          "timeZone": "Asia/Shanghai",
+          "icon": "punishing-gray-raven",
+          "dailyReset": {
+            "time": "04:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "punishing-gray-raven:global",
+          "name": "Global",
+          "timeZone": "Etc/UTC",
+          "icon": "punishing-gray-raven",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "punishing-gray-raven:japan",
+          "name": "Japan",
+          "timeZone": "Asia/Tokyo",
+          "icon": "punishing-gray-raven",
+          "dailyReset": {
+            "time": "04:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "puzzle-and-dragons",
+      "name": "Puzzle & Dragons",
+      "servers": [
+        {
+          "id": "puzzle-and-dragons:na",
+          "name": "NA",
+          "timeZone": "America/Los_Angeles",
+          "icon": "puzzle-dragons",
+          "dailyReset": {
+            "time": "12:00",
+            "basis": "utc"
+          }
+        }
+      ]
+    },
+    {
+      "id": "rage-of-sage-online",
+      "name": "Rage of Sage Online",
+      "servers": [
+        {
+          "id": "rage-of-sage-online:global",
+          "name": "Global",
+          "timeZone": "America/Panama",
+          "icon": "rage-of-sage-online",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ragnarok-m-eternal-love",
+      "name": "Ragnarok M: Eternal Love",
+      "servers": [
+        {
+          "id": "ragnarok-m-eternal-love:global",
+          "name": "Global",
+          "timeZone": "Etc/GMT+6",
+          "icon": "ragnarok-m-eternal-love",
+          "dailyReset": {
+            "time": "06:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ragnarok-origin",
+      "name": "Ragnarok Origin",
+      "servers": [
+        {
+          "id": "ragnarok-origin:global",
+          "name": "Global",
+          "timeZone": "Etc/GMT+4",
+          "icon": "ragnarok-origin",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ragnarok-x-next-generation",
+      "name": "Ragnarok X: Next Generation",
+      "servers": [
+        {
+          "id": "ragnarok-x-next-generation:sea",
+          "name": "SEA",
+          "timeZone": "Etc/GMT-7",
+          "icon": "ragnarok-x-next-generation",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "raid-shadow-legends",
+      "name": "RAID: Shadow Legends",
+      "servers": [
+        {
+          "id": "raid-shadow-legends:eu",
+          "name": "EU",
+          "timeZone": "Etc/GMT-1",
+          "icon": "raid-shadow-legends",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "resonance-solstice",
+      "name": "Resonance Solstice",
+      "servers": [
+        {
+          "id": "resonance-solstice:global",
+          "name": "Global",
+          "timeZone": "Etc/UTC",
+          "icon": "resonance-solstice",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "reverse-1999",
+      "name": "Reverse: 1999",
+      "servers": [
+        {
+          "id": "reverse-1999:asia",
+          "name": "Asia",
+          "timeZone": "Etc/GMT-8",
+          "icon": "reverse-1999",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "reverse-1999:global",
+          "name": "Global",
+          "timeZone": "Etc/GMT+5",
+          "icon": "reverse-1999",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "revived-witch",
+      "name": "Revived Witch",
+      "servers": [
+        {
+          "id": "revived-witch:cn",
+          "name": "CN",
+          "timeZone": "Asia/Shanghai",
+          "icon": "revived-witch",
+          "dailyReset": {
+            "time": "04:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "rhythm-hive",
+      "name": "Rhythm Hive",
+      "servers": [
+        {
+          "id": "rhythm-hive:global",
+          "name": "Global",
+          "timeZone": "Asia/Seoul",
+          "icon": "rhythm-hive",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "riichi-city",
+      "name": "Riichi City",
+      "servers": [
+        {
+          "id": "riichi-city:global",
+          "name": "Global",
+          "timeZone": "Etc/GMT-9",
+          "icon": "riichi-city",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "rise-of-kingdoms",
+      "name": "Rise of Kingdoms",
+      "servers": [
+        {
+          "id": "rise-of-kingdoms:global",
+          "name": "Global",
+          "timeZone": "Etc/UTC",
+          "icon": "rise-of-kingdoms",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "romancing-saga-re-universe",
+      "name": "Romancing SaGa Re;univerSe",
+      "servers": [
+        {
+          "id": "romancing-saga-re-universe:jp",
+          "name": "JP",
+          "timeZone": "Asia/Tokyo",
+          "icon": "romancing-saga-re-universe",
+          "dailyReset": {
+            "time": "04:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "saint-seiya-awakening",
+      "name": "Saint Seiya: Awakening",
+      "servers": [
+        {
+          "id": "saint-seiya-awakening:global",
+          "name": "Global",
+          "timeZone": "Etc/GMT+4",
+          "icon": "saint-seiya-awakening-global",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "saint-seiya-awakening:sea",
+          "name": "SEA",
+          "timeZone": "Asia/Jakarta",
+          "icon": "saint-seiya-awakening-sea",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sd-gundam-g-generation-eternal",
+      "name": "SD Gundam G Generation ETERNAL",
+      "servers": [
+        {
+          "id": "sd-gundam-g-generation-eternal:global",
+          "name": "Global",
+          "timeZone": "Asia/Tokyo",
+          "icon": "sd-gundam-g-generation-eternal",
+          "dailyReset": {
+            "time": "01:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sdorica",
+      "name": "Sdorica",
+      "servers": [
+        {
+          "id": "sdorica:global",
+          "name": "Global",
+          "timeZone": "Etc/UTC",
+          "icon": "sdorica",
+          "dailyReset": {
+            "time": "21:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "seoul-apocalypse",
+      "name": "SEOUL Apocalypse",
+      "servers": [
+        {
+          "id": "seoul-apocalypse:en",
+          "name": "EN",
+          "timeZone": "Etc/GMT-8",
+          "icon": "seoul-apocalypse",
+          "dailyReset": {
+            "time": "07:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "seven-knights-idle-adventure",
+      "name": "Seven Knights Idle Adventure",
+      "servers": [
+        {
+          "id": "seven-knights-idle-adventure:global",
+          "name": "Global",
+          "timeZone": "Etc/UTC",
+          "icon": "seven-knights-idle-adventure",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "seven-knights-re-birth",
+      "name": "Seven Knights Re:BIRTH",
+      "servers": [
+        {
+          "id": "seven-knights-re-birth:global",
+          "name": "Global",
+          "timeZone": "Etc/GMT-7",
+          "icon": "seven-knights-rebirth",
+          "dailyReset": {
+            "time": "07:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "shadowverse-worlds-beyond",
+      "name": "Shadowverse: Worlds Beyond",
+      "servers": [
+        {
+          "id": "shadowverse-worlds-beyond:global",
+          "name": "Global",
+          "timeZone": "Etc/UTC",
+          "icon": "shadowverse-worlds-beyond",
+          "dailyReset": {
+            "time": "20:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "shin-megami-tensei-liberation-dx2",
+      "name": "SHIN MEGAMI TENSEI Liberation Dx2",
+      "menuName": "SMT Liberation Dx2",
+      "servers": [
+        {
+          "id": "shin-megami-tensei-liberation-dx2:en",
+          "name": "EN",
+          "timeZone": "America/Los_Angeles",
+          "icon": "smt-l-dx2",
+          "dailyReset": {
+            "time": "18:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "shining-nikki",
+      "name": "Shining Nikki",
+      "servers": [
+        {
+          "id": "shining-nikki:en",
+          "name": "EN",
+          "timeZone": "Etc/GMT+7",
+          "icon": "shining-nikki",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "silver-and-blood",
+      "name": "Silver and Blood",
+      "servers": [
+        {
+          "id": "silver-and-blood:apac",
+          "name": "APAC",
+          "timeZone": "Etc/GMT-8",
+          "icon": "silver-and-blood",
+          "dailyReset": {
+            "time": "09:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "silver-and-blood:us-and-other-regions",
+          "name": "US & Other Regions",
+          "timeZone": "Etc/GMT+8",
+          "icon": "silver-and-blood",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "skullgirls",
+      "name": "Skullgirls",
+      "servers": [
+        {
+          "id": "skullgirls:global",
+          "name": "Global",
+          "timeZone": "America/Los_Angeles",
+          "icon": "skullgirls",
+          "dailyReset": {
+            "time": "10:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sky-children-of-the-light",
+      "name": "Sky: Children of the Light",
+      "servers": [
+        {
+          "id": "sky-children-of-the-light:global",
+          "name": "Global",
+          "timeZone": "America/Los_Angeles",
+          "icon": "sky-children-of-the-light",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "slime-isekai-memories",
+      "name": "SLIME - ISEKAI Memories",
+      "servers": [
+        {
+          "id": "slime-isekai-memories:americas",
+          "name": "Americas",
+          "timeZone": "America/Chicago",
+          "icon": "slime-isekai-memories",
+          "dailyReset": {
+            "time": "06:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "slime-isekai-memories:europe",
+          "name": "Europe",
+          "timeZone": "Europe/Paris",
+          "icon": "slime-isekai-memories",
+          "dailyReset": {
+            "time": "06:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "snowbreak-containment-zone",
+      "name": "Snowbreak: Containment Zone",
+      "servers": [
+        {
+          "id": "snowbreak-containment-zone:global",
+          "name": "Global",
+          "timeZone": "Etc/GMT-8",
+          "icon": "snowbreak-containment-zone",
+          "dailyReset": {
+            "time": "04:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "solo-leveling-arise",
+      "name": "Solo Leveling:Arise",
+      "servers": [
+        {
+          "id": "solo-leveling-arise:global",
+          "name": "Global",
+          "timeZone": "Etc/UTC",
+          "icon": "solo-leveling-arise",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "soul-tide",
+      "name": "Soul Tide",
+      "servers": [
+        {
+          "id": "soul-tide:cn",
+          "name": "CN",
+          "timeZone": "Asia/Shanghai",
+          "icon": "soul-tide",
+          "dailyReset": {
+            "time": "04:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "souls",
+      "name": "SOULS",
+      "servers": [
+        {
+          "id": "souls:global",
+          "name": "Global",
+          "timeZone": "Etc/GMT",
+          "icon": "souls",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "soulworker",
+      "name": "SoulWorker",
+      "servers": [
+        {
+          "id": "soulworker:en",
+          "name": "EN",
+          "timeZone": "Etc/GMT",
+          "icon": "soulworker",
+          "dailyReset": {
+            "time": "01:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "starsavior",
+      "name": "StarSavior",
+      "servers": [
+        {
+          "id": "starsavior:global",
+          "name": "Global",
+          "timeZone": "Etc/GMT-9",
+          "icon": "starsavior",
+          "dailyReset": {
+            "time": "04:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "starseed-asnia-trigger",
+      "name": "STARSEED: Asnia Trigger",
+      "servers": [
+        {
+          "id": "starseed-asnia-trigger:global",
+          "name": "Global",
+          "timeZone": "Etc/UTC",
+          "icon": "starseed-asnia-trigger",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "stella-sora",
+      "name": "Stella Sora",
+      "servers": [
+        {
+          "id": "stella-sora:global",
+          "name": "Global",
+          "timeZone": "Etc/GMT+7",
+          "icon": "stella-sora",
+          "dailyReset": {
+            "time": "13:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "strinova",
+      "name": "Strinova",
+      "servers": [
+        {
+          "id": "strinova:global",
+          "name": "Global",
+          "timeZone": "Etc/UTC",
+          "icon": "strinova",
+          "dailyReset": {
+            "time": "07:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "summoners-war",
+      "name": "Summoners War",
+      "servers": [
+        {
+          "id": "summoners-war:global",
+          "name": "Global",
+          "timeZone": "America/Los_Angeles",
+          "icon": "summoners-war",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "summoners-war-chronicles",
+      "name": "Summoners War: Chronicles",
+      "servers": [
+        {
+          "id": "summoners-war-chronicles:asia",
+          "name": "Asia",
+          "timeZone": "Etc/GMT-7",
+          "icon": "summoners-war-chronicles",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "summoners-war-chronicles:eu",
+          "name": "EU",
+          "timeZone": "Etc/GMT-1",
+          "icon": "summoners-war-chronicles",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "summoners-war-chronicles:us",
+          "name": "US",
+          "timeZone": "Etc/GMT+5",
+          "icon": "summoners-war-chronicles",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sunflower-land",
+      "name": "Sunflower Land",
+      "servers": [
+        {
+          "id": "sunflower-land:global",
+          "name": "Global",
+          "timeZone": "Etc/GMT",
+          "icon": "sunflower-land",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "superstar-jypnation",
+      "name": "SUPERSTAR JYPNATION",
+      "servers": [
+        {
+          "id": "superstar-jypnation:en",
+          "name": "EN",
+          "timeZone": "Asia/Seoul",
+          "icon": "superstar-jypnation",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sword-of-convallaria",
+      "name": "Sword of Convallaria",
+      "servers": [
+        {
+          "id": "sword-of-convallaria:global",
+          "name": "Global",
+          "timeZone": "Etc/GMT+4",
+          "icon": "sword-of-convallaria",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sword-x-staff",
+      "name": "Sword x Staff",
+      "servers": [
+        {
+          "id": "sword-x-staff:global",
+          "name": "Global",
+          "timeZone": "Etc/UTC",
+          "icon": "sword-x-staff",
+          "dailyReset": {
+            "time": "13:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tears-of-themis",
+      "name": "Tears of Themis",
+      "servers": [
+        {
+          "id": "tears-of-themis:global",
+          "name": "Global",
+          "timeZone": "Etc/GMT-9",
+          "icon": "tears-of-themis",
+          "dailyReset": {
+            "time": "04:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "tears-of-themis:taiwan",
+          "name": "Taiwan",
+          "timeZone": "Etc/GMT-8",
+          "icon": "tears-of-themis",
+          "dailyReset": {
+            "time": "04:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tenkafuma",
+      "name": "TenkafuMA!",
+      "servers": [
+        {
+          "id": "tenkafuma:global",
+          "name": "Global",
+          "timeZone": "Etc/GMT-8",
+          "icon": "tenkafuma",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "the-ants-underground-kingdom",
+      "name": "The Ants: Underground Kingdom",
+      "servers": [
+        {
+          "id": "the-ants-underground-kingdom:global",
+          "name": "Global",
+          "timeZone": "Etc/UTC",
+          "icon": "the-ants-underground-kingdom",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "the-battle-cats",
+      "name": "The Battle Cats",
+      "servers": [
+        {
+          "id": "the-battle-cats:global",
+          "name": "Global",
+          "timeZone": "America/Panama",
+          "icon": "the-battle-cats",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "the-eminence-in-shadow-master-of-garden",
+      "name": "The Eminence in Shadow: Master of Garden",
+      "servers": [
+        {
+          "id": "the-eminence-in-shadow-master-of-garden:en",
+          "name": "EN",
+          "timeZone": "Etc/UTC",
+          "icon": "the-eminence-in-shadow-rpg",
+          "dailyReset": {
+            "time": "19:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "the-first-descendant",
+      "name": "The First Descendant",
+      "servers": [
+        {
+          "id": "the-first-descendant:global",
+          "name": "Global",
+          "timeZone": "America/Los_Angeles",
+          "icon": "the-first-descendant",
+          "dailyReset": {
+            "time": "07:00",
+            "basis": "utc"
+          }
+        }
+      ]
+    },
+    {
+      "id": "the-idolm-ster-cinderella-girls-starlight-stage",
+      "name": "THE iDOLM@STER CINDERELLA GIRLS: STARLIGHT STAGE",
+      "menuName": "THE iDOLM@STER CG:SS",
+      "servers": [
+        {
+          "id": "the-idolm-ster-cinderella-girls-starlight-stage:jp",
+          "name": "JP",
+          "timeZone": "Asia/Tokyo",
+          "icon": "the-idolmaster-cgss",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "the-idolm-ster-million-live-theater-days",
+      "name": "THE iDOLM@STER MILLION LIVE! THEATER DAYS",
+      "menuName": "THE iDOLM@STER ML! TD",
+      "servers": [
+        {
+          "id": "the-idolm-ster-million-live-theater-days:jp",
+          "name": "JP",
+          "timeZone": "Asia/Tokyo",
+          "icon": "the-idolmaster-million-live-theater-days",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "the-idolm-ster-shiny-colors-song-for-prism",
+      "name": "THE IDOLM@STER Shiny Colors Song for Prism",
+      "menuName": "THE iDOLM@STER SC SFP",
+      "servers": [
+        {
+          "id": "the-idolm-ster-shiny-colors-song-for-prism:jp",
+          "name": "JP",
+          "timeZone": "Asia/Tokyo",
+          "icon": "the-idolmaster-shiny-colors-song-for-prism",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "the-legend-of-neverland",
+      "name": "The Legend of Neverland",
+      "servers": [
+        {
+          "id": "the-legend-of-neverland:global",
+          "name": "Global",
+          "timeZone": "Etc/GMT+7",
+          "icon": "the-legend-of-neverland",
+          "dailyReset": {
+            "time": "04:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "the-seven-deadly-sins-grand-cross",
+      "name": "The Seven Deadly Sins: Grand Cross",
+      "servers": [
+        {
+          "id": "the-seven-deadly-sins-grand-cross:global",
+          "name": "Global",
+          "timeZone": "Etc/GMT+7",
+          "icon": "tsds-gc-global",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "the-seven-deadly-sins-grand-cross:jp",
+          "name": "JP",
+          "timeZone": "Asia/Tokyo",
+          "icon": "tsds-gc-jp",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "time-princess",
+      "name": "Time Princess",
+      "servers": [
+        {
+          "id": "time-princess:global",
+          "name": "Global",
+          "timeZone": "Etc/GMT+5",
+          "icon": "time-princess",
+          "dailyReset": {
+            "time": "01:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tokyo-7th-sisters",
+      "name": "Tokyo 7th Sisters",
+      "servers": [
+        {
+          "id": "tokyo-7th-sisters:jp",
+          "name": "JP",
+          "timeZone": "Asia/Tokyo",
+          "icon": "tokyo-7th-sisters",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tokyo-afterschool-summoners",
+      "name": "Tokyo Afterschool Summoners",
+      "servers": [
+        {
+          "id": "tokyo-afterschool-summoners:global",
+          "name": "Global",
+          "timeZone": "Asia/Tokyo",
+          "icon": "tokyo-afterschool-summoners",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tokyo-debunker",
+      "name": "Tokyo Debunker",
+      "servers": [
+        {
+          "id": "tokyo-debunker:global",
+          "name": "Global",
+          "timeZone": "Asia/Tokyo",
+          "icon": "tokyo-debunker",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tom-clancys-the-division-2",
+      "name": "Tom Clancy's The Division 2",
+      "servers": [
+        {
+          "id": "tom-clancys-the-division-2:global",
+          "name": "Global",
+          "timeZone": "Etc/UTC",
+          "icon": "the-division-2",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "toontown-corporate-clash",
+      "name": "Toontown: Corporate Clash",
+      "servers": [
+        {
+          "id": "toontown-corporate-clash:global",
+          "name": "Global",
+          "timeZone": "America/Panama",
+          "icon": "toontown-corporate-clash",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "toontown-rewritten",
+      "name": "Toontown Rewritten",
+      "servers": [
+        {
+          "id": "toontown-rewritten:en",
+          "name": "EN",
+          "timeZone": "America/Los_Angeles",
+          "icon": "toontown-rewritten",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "toram-online",
+      "name": "Toram Online",
+      "servers": [
+        {
+          "id": "toram-online:global",
+          "name": "Global",
+          "timeZone": "Asia/Tokyo",
+          "icon": "toram-online",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "touhou-gensou-eclipse",
+      "name": "Touhou Gensou Eclipse",
+      "servers": [
+        {
+          "id": "touhou-gensou-eclipse:jp",
+          "name": "JP",
+          "timeZone": "Asia/Tokyo",
+          "icon": "touhou-gensou-eclipse",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "touhou-lostword",
+      "name": "Touhou LostWord",
+      "servers": [
+        {
+          "id": "touhou-lostword:global",
+          "name": "Global",
+          "timeZone": "Etc/UTC",
+          "icon": "touhou-lost-word",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "touken-ranbu-online",
+      "name": "Touken Ranbu ONLINE",
+      "servers": [
+        {
+          "id": "touken-ranbu-online:jp",
+          "name": "JP",
+          "timeZone": "Asia/Tokyo",
+          "icon": "touken-ranbu-online",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tower-of-fantasy",
+      "name": "Tower of Fantasy",
+      "servers": [
+        {
+          "id": "tower-of-fantasy:global",
+          "name": "Global",
+          "timeZone": "America/New_York",
+          "icon": "tower-of-fantasy",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tower-of-god-new-world",
+      "name": "Tower of God: New World",
+      "servers": [
+        {
+          "id": "tower-of-god-new-world:america-east",
+          "name": "America (East)",
+          "timeZone": "Etc/GMT+5",
+          "icon": "tower-of-god-new-world",
+          "dailyReset": {
+            "time": "19:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "tower-of-god-new-world:america-west",
+          "name": "America (West)",
+          "timeZone": "Etc/GMT+8",
+          "icon": "tower-of-god-new-world",
+          "dailyReset": {
+            "time": "16:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "tower-of-god-new-world:asia-and-southeast-asia",
+          "name": "Asia & Southeast Asia",
+          "timeZone": "Etc/GMT-9",
+          "icon": "tower-of-god-new-world",
+          "dailyReset": {
+            "time": "09:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "tower-of-god-new-world:europe",
+          "name": "Europe",
+          "timeZone": "Etc/GMT-1",
+          "icon": "tower-of-god-new-world",
+          "dailyReset": {
+            "time": "01:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tower-of-saviors",
+      "name": "Tower of Saviors",
+      "servers": [
+        {
+          "id": "tower-of-saviors:cn-and-en",
+          "name": "CN & EN",
+          "timeZone": "Etc/GMT-8",
+          "icon": "tower-of-saviors",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "trickcal-chibi-go",
+      "name": "Trickcal: Chibi Go",
+      "servers": [
+        {
+          "id": "trickcal-chibi-go:global",
+          "name": "Global",
+          "timeZone": "Etc/GMT-9",
+          "icon": "trickcal-chibi-go",
+          "dailyReset": {
+            "time": "04:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ulala-idle-adventure",
+      "name": "Ulala: Idle Adventure",
+      "servers": [
+        {
+          "id": "ulala-idle-adventure:na",
+          "name": "NA",
+          "timeZone": "America/New_York",
+          "icon": "ulala-idle-adventure",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ultraman-legend-of-heroes",
+      "name": "Ultraman: Legend of Heroes",
+      "servers": [
+        {
+          "id": "ultraman-legend-of-heroes:global",
+          "name": "Global",
+          "timeZone": "Asia/Shanghai",
+          "icon": "ultraman-legend-of-heroes",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "umamusume-pretty-derby",
+      "name": "Umamusume: Pretty Derby",
+      "servers": [
+        {
+          "id": "umamusume-pretty-derby:global",
+          "name": "Global",
+          "timeZone": "Etc/UTC",
+          "icon": "uma-musume-pretty-derby",
+          "dailyReset": {
+            "time": "15:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "umamusume-pretty-derby:jp",
+          "name": "JP",
+          "timeZone": "Asia/Tokyo",
+          "icon": "uma-musume-pretty-derby",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "valkyrie-connect",
+      "name": "Valkyrie Connect",
+      "servers": [
+        {
+          "id": "valkyrie-connect:global",
+          "name": "Global",
+          "timeZone": "Etc/UTC",
+          "icon": "valkyrie-connect",
+          "dailyReset": {
+            "time": "06:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "vikingard",
+      "name": "Vikingard",
+      "servers": [
+        {
+          "id": "vikingard:america",
+          "name": "America",
+          "timeZone": "Etc/GMT+6",
+          "icon": "vikingard",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "war-thunder",
+      "name": "War Thunder",
+      "servers": [
+        {
+          "id": "war-thunder:global",
+          "name": "Global",
+          "timeZone": "Etc/GMT",
+          "icon": "war-thunder",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "warframe",
+      "name": "Warframe",
+      "servers": [
+        {
+          "id": "warframe:global",
+          "name": "Global",
+          "timeZone": "Etc/GMT",
+          "icon": "warframe",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "what-in-hell-is-bad",
+      "name": "What in Hell is Bad?",
+      "servers": [
+        {
+          "id": "what-in-hell-is-bad:global",
+          "name": "Global",
+          "timeZone": "Asia/Seoul",
+          "icon": "what-in-hell-is-bad",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "where-winds-meet",
+      "name": "Where Winds Meet",
+      "servers": [
+        {
+          "id": "where-winds-meet:global",
+          "name": "Global",
+          "timeZone": "Etc/UTC",
+          "icon": "where-winds-meet",
+          "dailyReset": {
+            "time": "21:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "wizardry-variants-daphne",
+      "name": "Wizardry Variants Daphne",
+      "servers": [
+        {
+          "id": "wizardry-variants-daphne:global",
+          "name": "Global",
+          "timeZone": "Asia/Tokyo",
+          "icon": "wizardry-variants-daphne",
+          "dailyReset": {
+            "time": "00:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "world-dai-star-yume-no-stellarium",
+      "name": "World Dai Star: Yume no Stellarium",
+      "servers": [
+        {
+          "id": "world-dai-star-yume-no-stellarium:jp",
+          "name": "JP",
+          "timeZone": "Asia/Tokyo",
+          "icon": "world-dai-star",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "world-of-warcraft",
+      "name": "World of Warcraft",
+      "servers": [
+        {
+          "id": "world-of-warcraft:americas-and-oceania",
+          "name": "Americas & Oceania",
+          "timeZone": "America/Los_Angeles",
+          "icon": "world-of-warcraft",
+          "dailyReset": {
+            "time": "15:00",
+            "basis": "utc"
+          }
+        },
+        {
+          "id": "world-of-warcraft:europe",
+          "name": "Europe",
+          "timeZone": "Europe/Brussels",
+          "icon": "world-of-warcraft",
+          "dailyReset": {
+            "time": "04:00",
+            "basis": "utc"
+          }
+        }
+      ]
+    },
+    {
+      "id": "wuthering-waves",
+      "name": "Wuthering Waves",
+      "servers": [
+        {
+          "id": "wuthering-waves:america",
+          "name": "America",
+          "timeZone": "Etc/GMT+5",
+          "icon": "wuthering-waves",
+          "dailyReset": {
+            "time": "04:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "wuthering-waves:asia",
+          "name": "Asia",
+          "timeZone": "Etc/GMT-8",
+          "icon": "wuthering-waves",
+          "dailyReset": {
+            "time": "04:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "wuthering-waves:europe",
+          "name": "Europe",
+          "timeZone": "Etc/GMT-1",
+          "icon": "wuthering-waves",
+          "dailyReset": {
+            "time": "04:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "wuthering-waves:sea",
+          "name": "SEA",
+          "timeZone": "Etc/GMT-8",
+          "icon": "wuthering-waves",
+          "dailyReset": {
+            "time": "04:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "yu-gi-oh-duel-links",
+      "name": "Yu-Gi-Oh! Duel Links",
+      "servers": [
+        {
+          "id": "yu-gi-oh-duel-links:global",
+          "name": "Global",
+          "timeZone": "Asia/Tokyo",
+          "icon": "yu-gi-oh-duel-links",
+          "dailyReset": {
+            "time": "05:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "yu-gi-oh-master-duel",
+      "name": "Yu-Gi-Oh! Master Duel",
+      "servers": [
+        {
+          "id": "yu-gi-oh-master-duel:global",
+          "name": "Global",
+          "timeZone": "Asia/Tokyo",
+          "icon": "yu-gi-oh-master-duel",
+          "dailyReset": {
+            "time": "03:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "zenless-zone-zero",
+      "name": "Zenless Zone Zero",
+      "servers": [
+        {
+          "id": "zenless-zone-zero:america",
+          "name": "America",
+          "timeZone": "Etc/GMT+5",
+          "icon": "zenless-zone-zero",
+          "dailyReset": {
+            "time": "04:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "zenless-zone-zero:asia",
+          "name": "Asia",
+          "timeZone": "Etc/GMT-8",
+          "icon": "zenless-zone-zero",
+          "dailyReset": {
+            "time": "04:00",
+            "basis": "local"
+          }
+        },
+        {
+          "id": "zenless-zone-zero:europe",
+          "name": "Europe",
+          "timeZone": "Etc/GMT-1",
+          "icon": "zenless-zone-zero",
+          "dailyReset": {
+            "time": "04:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "zerowake-gates",
+      "name": "Zerowake GATES",
+      "servers": [
+        {
+          "id": "zerowake-gates:na",
+          "name": "NA",
+          "timeZone": "Asia/Seoul",
+          "icon": "zerowake-gates",
+          "dailyReset": {
+            "time": "09:00",
+            "basis": "local"
+          }
+        }
+      ]
+    },
+    {
+      "id": "zold-out",
+      "name": "Zold:Out",
+      "servers": [
+        {
+          "id": "zold-out:global",
+          "name": "Global",
+          "timeZone": "Asia/Shanghai",
+          "icon": "zoldout",
+          "dailyReset": {
+            "time": "08:00",
+            "basis": "local"
+          }
+        }
+      ]
+    }
+  ]
+}

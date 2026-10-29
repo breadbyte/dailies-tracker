@@ -1,0 +1,18 @@
+/**
+ * Cloudflare Pages configuration for the static SPA (built to ../dist).
+ *
+ * This file is deliberately separate from wrangler.jsonc: a Wrangler config
+ * is either a Worker config (`main` is set) or a Pages config
+ * (`pages_build_output_dir` is set), never both. Commands targeting Pages
+ * must pass `-c wrangler.pages.jsonc`; without the flag Wrangler
+ * auto-detects only wrangler.jsonc and would treat this project as a Worker.
+ *
+ * The Pages project is static hosting only: the API Worker is deployed
+ * separately (wrangler.jsonc), and the Pages hostname is added to the
+ * Worker's ALLOWED_ORIGINS var. See docs/deployment.md.
+ */
+{
+  "name": "dailies-pages",
+  "pages_build_output_dir": "../dist",
+  "compatibility_date": "2026-10-29"
+}

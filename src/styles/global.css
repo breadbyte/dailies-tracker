@@ -1,0 +1,802 @@
+:root {
+  color-scheme: light dark;
+  --color-bg: #f8fafc;
+  --color-surface: #ffffff;
+  --color-text: #111827;
+  --color-muted: #4b5563;
+  --color-accent: #1d4ed8;
+  --color-focus: #b45309;
+  --color-border: #d1d5db;
+  --heatmap-0: #ebedf0;
+  --heatmap-1: #9be9a8;
+  --heatmap-2: #40c463;
+  --heatmap-3: #30a14e;
+  --heatmap-4: #216e39;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #0f172a;
+    --color-surface: #1e293b;
+    --color-text: #e5e7eb;
+    --color-muted: #9ca3af;
+    --color-accent: #93c5fd;
+    --color-focus: #fbbf24;
+    --color-border: #334155;
+    --heatmap-0: #161b22;
+    --heatmap-1: #0e4429;
+    --heatmap-2: #006d32;
+    --heatmap-3: #26a641;
+    --heatmap-4: #39d353;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family:
+  system-ui,
+  -apple-system,
+  'Segoe UI',
+  Roboto,
+  sans-serif;
+  line-height: 1.5;
+}
+
+a {
+  color: var(--color-accent);
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-focus);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+}
+
+.skip-link:focus {
+  left: 1rem;
+  top: 1rem;
+  z-index: 10;
+  padding: 0.5rem 1rem;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+}
+
+.app-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem 2rem;
+  padding: 0.75rem 1rem;
+  background: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.app-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.nav-list {
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-list a {
+  text-decoration: none;
+}
+
+.nav-list a[aria-current='page'] {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.app-main {
+  max-width: 64rem;
+  margin: 0 auto;
+  padding: 1.5rem 1rem;
+}
+
+.app-main:focus {
+  outline: none;
+}
+
+.app-footer {
+  max-width: 64rem;
+  margin: 0 auto;
+  padding: 1.5rem 1rem;
+  color: var(--color-muted);
+  font-size: 0.875rem;
+}
+
+.reset-list {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+  margin: 1.5rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.reset-card {
+  padding: 1rem;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 0.5rem;
+}
+
+.reset-card h2 {
+  margin: 0 0 0.25rem;
+  font-size: 1.125rem;
+}
+
+.reset-meta,
+.reset-next {
+  margin: 0.25rem 0 0;
+  color: var(--color-muted);
+  font-size: 0.875rem;
+}
+
+.reset-countdown {
+  margin: 0.75rem 0 0;
+}
+
+.reset-countdown strong {
+  font-variant-numeric: tabular-nums;
+}
+
+button,
+input,
+select {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  padding: 0.4rem 0.75rem;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 0.375rem;
+  cursor: pointer;
+}
+
+button:hover:not(:disabled) {
+  border-color: var(--color-accent);
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.65;
+}
+
+input[type='search'],
+input[type='time'],
+input[type='email'],
+input[type='password'],
+select {
+  max-width: 32rem;
+  padding: 0.4rem;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 0.375rem;
+}
+
+.auth-form {
+  display: grid;
+  gap: 0.75rem;
+  max-width: 28rem;
+  margin: 1rem 0;
+}
+
+.auth-form label {
+  display: grid;
+  gap: 0.25rem;
+}
+
+.auth-form h2 {
+  margin: 0;
+  font-size: 1.125rem;
+}
+
+.dashboard-summary {
+  margin: 1rem 0 0;
+  color: var(--color-muted);
+}
+
+.heatmap {
+  margin-top: 0.75rem;
+  padding: 0.75rem;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 0.5rem;
+}
+
+.heatmap-summary {
+  margin: 0 0 0.75rem;
+  color: var(--color-muted);
+  font-size: 0.875rem;
+}
+
+.heatmap-scroll {
+  overflow-x: auto;
+  padding-bottom: 0.35rem;
+}
+
+.heatmap-body {
+  display: flex;
+  gap: 0.35rem;
+  width: max-content;
+}
+
+.heatmap-weekdays {
+  display: grid;
+  grid-template-rows: repeat(7, 0.75rem);
+  gap: 3px;
+  padding-top: 1.1rem;
+  color: var(--color-muted);
+  font-size: 0.6rem;
+  line-height: 0.75rem;
+  text-align: right;
+}
+
+.heatmap-weekdays span {
+  width: 1.5rem;
+}
+
+.heatmap-cells {
+  display: grid;
+  gap: 3px;
+}
+
+.heatmap-months {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 0.75rem;
+  gap: 3px;
+  height: 1.1rem;
+  color: var(--color-muted);
+  font-size: 0.6rem;
+  line-height: 1;
+}
+
+.heatmap-months span {
+  overflow: visible;
+  white-space: nowrap;
+}
+
+.heatmap-grid {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-rows: repeat(7, 0.75rem);
+  grid-auto-columns: 0.75rem;
+  gap: 3px;
+}
+
+.heatmap-day {
+  display: block;
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 2px;
+  background: var(--heatmap-0);
+}
+
+.heatmap-level-0 {
+  background: var(--heatmap-0);
+}
+
+.heatmap-level-1 {
+  background: var(--heatmap-1);
+}
+
+.heatmap-level-2 {
+  background: var(--heatmap-2);
+}
+
+.heatmap-level-3 {
+  background: var(--heatmap-3);
+}
+
+.heatmap-level-4 {
+  background: var(--heatmap-4);
+}
+
+.heatmap-future {
+  opacity: 0.35;
+}
+
+.heatmap-legend {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 3px;
+  margin-top: 0.5rem;
+  color: var(--color-muted);
+  font-size: 0.7rem;
+}
+
+.heatmap-legend span:first-child {
+  margin-right: 0.25rem;
+}
+
+.heatmap-legend span:last-child {
+  margin-left: 0.25rem;
+}
+
+.login-state {
+  margin: 0.75rem 0 0.35rem;
+  font-weight: 600;
+}
+
+.button-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.schedule-details {
+  margin-top: 1rem;
+}
+
+.schedule-details summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.schedule-editor {
+  display: grid;
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+  padding: 1rem;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 0.5rem;
+}
+
+.schedule-editor label {
+  display: grid;
+  gap: 0.25rem;
+}
+
+.schedule-editor fieldset {
+  margin: 0;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--color-border);
+  border-radius: 0.375rem;
+}
+
+.schedule-current {
+  margin: 0;
+}
+
+.weekday-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+}
+
+.weekday-options label {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.selection-list,
+.catalog-list,
+.upcoming-list {
+  margin: 1rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.selection-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.selection-card {
+  padding: 1rem;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 0.5rem;
+}
+
+.selection-card-body {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.selection-card-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.game-artwork {
+  display: grid;
+  gap: 0.35rem;
+  width: 6rem;
+  flex: none;
+}
+
+.game-artwork-image {
+  display: block;
+  width: 6rem;
+  height: auto;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  border-radius: 0.35rem;
+  border: 1px solid var(--color-border);
+  background: var(--color-bg);
+}
+
+.game-artwork-fallback {
+  display: grid;
+  place-items: center;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--color-muted);
+  background: linear-gradient(
+    135deg,
+    var(--color-bg),
+                              var(--color-surface)
+  );
+}
+
+/* Image swatch picker: thumbnails instead of text labels */
+.game-artwork-picker {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.25rem;
+}
+
+/* Author display:grid would otherwise override the hidden attribute */
+.game-artwork-picker[hidden] {
+  display: none;
+}
+
+.game-artwork-picker-toggle {
+  width: 100%;
+  padding: 0.15rem;
+  font-size: 0.7rem;
+}
+
+.game-artwork-picker-toggle[aria-expanded='true'] {
+  border-color: var(--color-accent);
+}
+
+.game-artwork-swatch {
+  position: relative;
+  display: block;
+  padding: 0;
+  aspect-ratio: 2 / 3;
+  overflow: hidden;
+  background: var(--color-bg);
+  border: 2px solid var(--color-border);
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition:
+  transform 120ms ease,
+  box-shadow 120ms ease;
+}
+
+/* Hovering (or keyboard-focusing) a swatch enlarges it for a closer look */
+.game-artwork-swatch:hover,
+.game-artwork-swatch:focus-visible {
+  z-index: 2;
+  transform: scale(1.8);
+  box-shadow: 0 2px 8px rgb(0 0 0 / 0.35);
+}
+
+.game-artwork-swatch img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Hover stays distinct from the selected state's accent border */
+.game-artwork-swatch:hover:not(:disabled) {
+  border-color: var(--color-focus);
+}
+
+.game-artwork-picker .game-artwork-swatch[aria-pressed='true'] {
+  border-color: var(--color-accent);
+}
+
+/* Check mark so the selected swatch is not signaled by color alone */
+.game-artwork-picker .game-artwork-swatch[aria-pressed='true']::after {
+  content: "✓";
+  position: absolute;
+  right: 0.15rem;
+  bottom: 0.1rem;
+  font-size: 0.65rem;
+  line-height: 1;
+  color: #fff;
+  text-shadow: 0 0 2px rgb(0 0 0 / 0.9);
+}
+
+/* Star badge marks the automatic top-rated swatch */
+.game-artwork-swatch-badge {
+  position: absolute;
+  left: 0.15rem;
+  top: 0.1rem;
+  font-size: 0.6rem;
+  line-height: 1;
+  color: #fff;
+  text-shadow: 0 0 2px rgb(0 0 0 / 0.9);
+}
+
+/* Floating large preview shown while a swatch is hovered or focused */
+.artwork-hover-preview {
+  position: fixed;
+  z-index: 50;
+  width: 12rem;
+  overflow: hidden;
+  pointer-events: none;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 0.35rem;
+  box-shadow: 0 4px 16px rgb(0 0 0 / 0.35);
+}
+
+.artwork-hover-preview img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+}
+
+.reset-card-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.reset-card-header h2 {
+  margin-top: 0;
+}
+
+.selection-heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.25rem 1rem;
+}
+
+.selection-heading h3 {
+  margin: 0;
+}
+
+.selection-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 1rem;
+  margin-top: 0.75rem;
+}
+
+.selection-actions label {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.catalog-list {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+}
+
+.catalog-game {
+  padding: 0.75rem 1rem;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 0.5rem;
+}
+
+.catalog-game h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+}
+
+.server-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.upcoming-list li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.upcoming-list li:last-child {
+  border-bottom: none;
+}
+
+.preview-table {
+  width: 100%;
+  margin: 0.75rem 0;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+}
+
+.preview-table caption {
+  padding-bottom: 0.5rem;
+  font-weight: 600;
+  text-align: left;
+}
+
+.preview-table th,
+.preview-table td {
+  padding: 0.35rem 0.5rem;
+  border-bottom: 1px solid var(--color-border);
+  text-align: left;
+  font-variant-numeric: tabular-nums;
+}
+
+.preview-table thead th {
+  color: var(--color-muted);
+  font-weight: 600;
+}
+
+.preview-table tbody th {
+  font-weight: 500;
+}
+
+#catalog-heading + p {
+margin-bottom: 0.35rem;
+}
+
+/* ---- Artwork as card background ---- */
+.reset-card {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  color: #fff;
+  min-height: 14rem;
+}
+
+/* Artwork layer fills the whole card */
+.reset-card > .reset-card-header > .game-artwork {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  width: auto;
+  margin: 0;
+  display: block;
+}
+
+.reset-card .game-artwork-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;          /* overrides the height="900" attribute that caused the thin stretch */
+  aspect-ratio: auto;
+  object-fit: cover;
+  object-position: center top;
+  border: 0;
+  border-radius: 0;
+}
+
+/* Scrim so text stays readable on any artwork */
+.reset-card .game-artwork::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgb(0 0 0 / 0.15) 0%,
+                              rgb(0 0 0 / 0.55) 45%,
+                              rgb(0 0 0 / 0.85) 100%
+  );
+  pointer-events: none;
+}
+
+.reset-card .reset-meta,
+.reset-card .reset-next,
+.reset-card .login-state {
+  color: rgb(255 255 255 / 0.8);
+}
+
+.reset-card-header > div:not(.game-artwork) { padding-top: 5rem; } /* let art breathe above the title */
+
+.reset-card button {
+  color: #fff;
+  background: rgb(0 0 0 / 0.45);
+  border-color: rgb(255 255 255 / 0.4);
+}
+
+@media (max-width: 40rem) {
+  .app-header {
+    gap: 0.5rem;
+  }
+
+  .reset-list,
+  .catalog-list {
+    grid-template-columns: 1fr;
+  }
+
+  .selection-heading {
+    display: block;
+  }
+
+  .selection-card-body {
+    display: block;
+  }
+
+  .game-artwork {
+    margin-bottom: 0.75rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ---- Artwork swatch hover: large floating preview + live apply to card preview ---- */
+/* The old in-place scale is replaced by the floating preview below */
+.game-artwork-swatch:hover,
+.game-artwork-swatch:focus-visible {
+  transform: none;
+  box-shadow: none;
+}
+
+.game-artwork-image {
+  transition: opacity 120ms ease;
+}
+
+.artwork-hover-preview {
+  position: fixed;
+  z-index: 1000;
+  width: min(18rem, 70vw);
+  max-height: 80vh;
+  padding: 0.25rem;
+  background: var(--color-surface);
+  border: 2px solid var(--color-accent);
+  border-radius: 0.5rem;
+  box-shadow: 0 8px 24px rgb(0 0 0 / 0.45);
+  pointer-events: none;
+}
+
+.artwork-hover-preview[hidden] {
+  display: none;
+}
+
+.artwork-hover-preview img {
+  display: block;
+  width: 100%;
+  max-height: calc(80vh - 1rem);
+  object-fit: contain;
+  border-radius: 0.35rem;
+}

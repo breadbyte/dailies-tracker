@@ -1,0 +1,18 @@
+{
+  "format": "dailies-backup",
+  "schemaVersion": 2,
+  "exportedAt": "2026-10-01T12:00:00.000Z",
+  "appVersion": "9.0.0",
+  "data": {
+    "preferences": {
+      "schemaVersion": 1,
+      "theme": "system",
+      "dashboardSort": "catalog",
+      "collapsedSections": []
+    },
+    "selectedGames": [],
+    "customGames": [],
+    "gameSchedules": [],
+    "loginCompletionHistory": []
+  }
+}

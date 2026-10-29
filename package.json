@@ -1,0 +1,56 @@
+{
+  "name": "dailies",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local-first dashboard for game daily logins, resets, and reminders.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "prebuild": "npm run catalog:validate",
+    "build": "npm run typecheck && vite build && node scripts/copy-legal.mjs",
+    "preview": "vite preview",
+    "typecheck": "tsc -p tsconfig.json && node scripts/typecheck-scripts.mjs",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "catalog:sync": "node --experimental-strip-types scripts/catalog.ts sync",
+    "catalog:validate": "node --experimental-strip-types scripts/catalog.ts validate",
+    "worker:dev": "npm --prefix worker run dev",
+    "worker:deploy": "npm --prefix worker run deploy",
+    "pages:deploy": "npm run build && npm --prefix worker run pages:deploy --",
+    "deploy": "npm run worker:deploy && npm run pages:deploy",
+    "worker:pages:dev": "npm --prefix worker run pages:dev --",
+    "worker:typecheck": "npm --prefix worker run typecheck",
+    "worker:test": "npm --prefix worker run test",
+    "worker:types": "npm --prefix worker run types",
+    "check": "npm run lint && npm run typecheck && npm run catalog:validate && npm run test && npm run build && npm run worker:typecheck && npm run worker:test"
+  },
+  "dependencies": {
+    "firebase": "^13.1.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-router": "^8.5.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@testing-library/dom": "^10.4.1",
+    "@testing-library/jest-dom": "^7.0.1",
+    "@testing-library/react": "^16.3.3",
+    "@testing-library/user-event": "^14.6.8",
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "eslint": "^10.13.0",
+    "fake-indexeddb": "^6.2.6",
+    "globals": "^17.13.0",
+    "jsdom": "^30.1.3",
+    "typescript": "~6.0.3",
+    "typescript-eslint": "^8.72.1",
+    "vite": "^8.3.5",
+    "vitest": "^5.0.5"
+  }
+}

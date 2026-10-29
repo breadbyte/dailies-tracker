@@ -1,0 +1,22 @@
+# Cloudflare Pages response headers for static assets.
+# The WAF challenge and rate-limit rules live in docs/edge-protection.md;
+# they are zone configuration and are not applied by this file.
+#
+# connect-src stays limited to this origin plus the public Firebase
+# Authentication endpoints used by optional sign-in. Phases 9 and 10 must
+# extend it for any enabled Worker or push origins.
+#
+# If VITE_API_BASE_URL points at a separate Worker origin, add that exact
+# origin to connect-src for the deployment. Optional SteamGridDB artwork images
+# are loaded directly from its HTTPS CDN (with no referrer).
+
+/*
+  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: https://cdn2.steamgriddb.com https://cdn.steamgriddb.com; font-src 'self'; connect-src 'self' https://identitytoolkit.googleapis.com https://securetoken.googleapis.com https://www.googleapis.com; manifest-src 'self'; worker-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; object-src 'none'
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+
+# Vite emits content-hashed filenames under /assets/.
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable

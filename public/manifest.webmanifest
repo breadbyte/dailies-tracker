@@ -1,0 +1,11 @@
+{
+  "name": "Dailies",
+  "short_name": "Dailies",
+  "description": "Track daily game logins, reset times, and reminders on your own device.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1f2937",
+  "icons": []
+}

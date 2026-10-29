@@ -1,0 +1,7 @@
+allowBuilds:
+  esbuild: true
+  workerd: true
+  '@firebase/util': true
+  protobufjs: true
+minimumReleaseAgeExclude:
+  - '@types/node@26.6.6'

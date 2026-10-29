@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "catalogSchemaVersion": 1,
+  "source": {
+    "repository": "https://github.com/cicerakes/Game-Time-Master",
+    "commit": "8576bda6481210f3ba24342fa242cb06fb9e6b5d",
+    "path": "game-data.js",
+    "license": "GPL-3.0-only"
+  },
+  "retrievedAt": "2026-10-29T11:25:52.428Z",
+  "upstreamCommitDate": "2026-10-26T13:51:22Z",
+  "counts": {
+    "games": 271,
+    "servers": 376
+  },
+  "catalog": {
+    "sha256": "d19ddc78e901e89bea0dc67fd1dd38719fb23b28ee3202e4ab4fbe9da8fff7b1",
+    "bytes": 128022
+  }
+}
